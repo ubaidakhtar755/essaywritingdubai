@@ -1,0 +1,1555 @@
+@media (max-width:1024px) {
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box h1 {
+        color: white;
+        font-size: 30px;
+        font-family: 'Poppins' !important;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box {
+        width: 60%;
+    }
+
+    section #pricing-calculator {
+        width: 100%;
+        margin-top: 100px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 20px 40px;
+        box-shadow: 4px 4px 10px gray;
+        position: absolute;
+        bottom: -486px;
+    }
+
+    section #pricing-calculator .inner-section .raw .col select {
+        width: 266px;
+        padding: 10px;
+    }
+
+    section #pricing-calculator .inner-section .side-bar {
+        width: 27%;
+        padding: 30px 20px;
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        position: absolute;
+        right: 15px;
+        top: 80px;
+    }
+
+    section#background-header {
+        width: 100%;
+        background-image: url("Image/Banner-Image.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 447px;
+        padding-top: 50px;
+    }
+
+    .Who-We-Are-Actually-box {
+        width: 100%;
+        /* border: 2px solid purple; */
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .Who-We-Are-Actually-left-box {
+        width: 100%;
+        /* border: 2px solid black; */
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Who-We-Are-Actually-right-box {
+        width: 100%;
+        /* border: 2px solid black; */
+        padding-left: 30px;
+    }
+
+    .Satisfaction-main-box {
+        width: 100% !important;
+        background-color: #fc5757;
+        box-shadow: 4px 4px 20px rgb(255, 130, 130);
+        position: static !important;
+        bottom: 0px;
+        /* display: none; */
+        right: 0px;
+        padding: 40px 20px;
+        padding-left: 20px !important;
+    }
+    .Satisfaction-icon-box img {
+        filter: invert(100%);
+        width: 100%;
+        margin-top: -121px !important;
+    }
+    div#Satisfaction-icon-box-adjust img {
+        margin-top: -144px !important;
+    }
+    .Who-We-Are-Actually-right-box-content {
+        width: 100%;
+        /* border: 2px solid orangered; */
+    }
+
+    .Who-We-Are-Actually-right-box-main-para {
+        width: 100%;
+        /* border: 2px solid purple; */
+        padding-top: 10px;
+        padding-right: 5px;
+    }
+
+    .Your-Essay-Right-Now-heading-sub-box {
+        width: 90%;
+        /* border: 2px solid white; */
+        margin: auto;
+    }
+
+    #Who-We-Are-Actually {
+        padding-top: 150px;
+        padding-bottom: 50px !important;
+    }
+
+    .Complete-Solution-For-Your-Essay-Writing-heading-sub-box {
+        width: 100%;
+        /* border: 2px solid purple; */
+        margin: auto;
+    }
+
+    #Complete-Solution-For-Your-Essay-Writing-sub-box-margin-top {
+        margin-top: 20px;
+    }
+
+    .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-sub-box {
+        width: 93%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-left-box {
+        width: 100%;
+    }
+
+    #Excellency-With-Consistency-Best-Essay-Writers-In-UAE-right-box-heading-style {
+        margin-left: 0px;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    p#Excellency-With-Consistency-Best-Essay-Writers-In-UAE-right-box-para-style {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .First-Class-Essay-Writing-Help-In-Dubai-box {
+        width: 93%;
+        margin: auto;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .First-Class-Essay-Writing-Help-In-Dubai-left-box {
+        width: 100%;
+    }
+
+    .First-Class-Essay-Writing-Help-In-Dubai-right-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-image-box {
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-box-heading {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-sub-heading-box {
+        width: 100%;
+        /* border: 2px solid orangered; */
+        margin: auto;
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box {
+        width: 93%;
+        /* border: 2px solid orangered; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-left {
+        width: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-right {
+        width: 100%;
+        /* border: 2px solid rgb(0, 0, 83); */
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-left-heading-style {
+        font-size: 40px;
+        font-family: 'Raleway' !important;
+        margin-bottom: 20px;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-left-box img {
+        position: static;
+        left: 0;
+        width: 52%;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-left-box img {
+        position: static;
+        left: 0;
+        width: 100%;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-sub-box {
+        width: 93%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-left-box {
+        width: 100%;
+        /* border: 2px solid brown; */
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-right-box {
+        width: 100%;
+        /* border: 2px solid rgb(104, 0, 0); */
+    }
+
+    .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box {
+        width: 100%;
+        margin: auto;
+    }
+    .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-para {
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-heading {
+        width: 87%;
+        margin: auto;
+    }
+    .footer-sub-box {
+        width: 100%;
+        /* border: 2px solid pink; */
+        margin: auto;
+    }
+    .footer-content-box {
+        width: 100%;
+        /* border: 2px solid purple; */
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer-contact-sub-real-box {
+        width: 93%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .Who-We-Are-Actually-box {
+        width: 100%;
+        border: none;
+        display: flex;
+        position: relative;
+    }
+    .acadmic-writing-sob-box-content {
+        width: 100%;
+        border-bottom: 2px solid gray;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 15px 0;
+        flex-wrap: wrap;
+        gap: 20px 0;
+    }
+    .privacy-policy-para-sub-box {
+        width: 100%;
+        border: 2px solid olive;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    section#reviews section.inner-section {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+        width: 100%;
+        min-width: 0px;
+    }
+    .review-section .second-review-col img {
+        border-radius: 0 0 0 50px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover !important;
+        object-position: center !important;
+        margin-top: 49px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .container {
+        width: 100%;
+        /* border: 2px solid black; */
+        padding: 100px 27px;
+    }
+
+    section #pricing-calculator .inner-section .raw .col {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 23px;
+    }
+
+    section #pricing-calculator .inner-section .side-bar {
+        width: 36%;
+        padding: 80px 1px;
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        position: absolute;
+        right: 15px;
+        top: 95px;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box h1 {
+        color: white;
+        font-size: 24px;
+        font-family: 'Poppins' !important;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box p {
+        color: white;
+        font-size: 15px;
+        font-family: 'Poppins' !important;
+        margin-top: 20px;
+    }
+
+    section #pricing-calculator {
+        width: 100%;
+        margin-top: 100px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 20px 40px;
+        box-shadow: 4px 4px 10px gray;
+        position: absolute;
+        bottom: -532px;
+    }
+
+    .Who-We-Are-Actually-right-box-content-heading-style {
+        font-size: 30px;
+        font-family: 'poppins' !important;
+        font-weight: 800;
+    }
+
+    .Who-We-Are-Actually-right-box-main-para p {
+        font-family: 'poppins' !important;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .Satisfaction-para-box p {
+        font-size: 16px;
+        color: white;
+    }
+
+    .Satisfaction-main-box {
+        width: 100%;
+        /* border: 2px solid rgb(226, 21, 21); */
+        background-color: #fc5757;
+        box-shadow: 4px 4px 20px rgb(255, 130, 130);
+        position: static;
+        bottom: 0px;
+        right: 0px;
+        padding: 40px 20px;
+        padding-left: 20px !important;
+    }
+    .Satisfaction-icon-box img {
+        filter: invert(100%);
+        width: 100%;
+        margin-top: -107px;
+    }
+    .Your-Essay-Right-Now-heading-sub-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Your-Essay-Right-Now-heading-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-box {
+        width: 100%;
+        margin: auto;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-sub-box {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-main-box {
+        width: 100%;
+        margin: auto;
+    }
+    .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-main-box {
+        width: 100%;
+        /* border: 2px solid brown; */
+        margin: auto;
+    }
+    .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-heading {
+        width: 101%;
+        margin: auto;
+    }
+    .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-heading-style {
+        font-size: 30px;
+        font-family: 'Raleway' !important;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-para p {
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Montserrat' !important;
+    }
+    .about-main-heading-box {
+        width: 100%;
+        margin: auto;
+    }
+    .privacy-policy-para-sub-box-para-content {
+        width: 100%;
+        margin: auto;
+    }
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box {
+        width: 70%;
+        padding-right: 0px !important;
+    }
+    #Complete-Solution-For-Your-Essay-Writing {
+        background-color: #f7f7f7;
+        background-image: none !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .review-section {
+        display: block !important;
+        justify-content: space-between;
+        align-items: flex-start !important;
+        gap: 50px;
+    }
+    .Satisfaction-icon-box img {
+        filter: invert(100%);
+        width: 100%;
+        margin-top: -163px !important;
+    }
+    div#Satisfaction-icon-box-adjust img {
+        margin-top: -180px !important;
+    }
+    #counter-image-left-position {
+        position: absolute;
+        left: -34px;
+        display: none;
+    }
+    .counter-box img {
+        position: absolute;
+        /* left: 0; */
+        top: 75px;
+        width: 190px !important;
+        display: none;
+    }
+    #service-footer-box {
+        width: 400px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .review-section .second-review-col img {
+        border-radius: 0 0 0 50px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover !important;
+        object-position: center !important;
+        margin-top: 49px;
+        border-radius: 50%;
+    }
+    #Complete-Solution-For-Your-Essay-Writing-sub-box-margin-top {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .personal-information-main-box {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .personal-information-main-box-left {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .personal-information-main-box-right {
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width:425px) {
+    section #pricing-calculator .inner-section input {
+        width: 100%;
+        padding: 15px;
+        margin-top: 150px;
+        background-color: black;
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-family: Montserrat;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: all .4s ease-in-out;
+    }
+
+    section #pricing-calculator .inner-section .side-bar {
+        width: 100%;
+        padding: 30px 1px;
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        position: absolute;
+        right: 0px;
+        top: 385px;
+    }
+
+    section #pricing-calculator .inner-section input {
+        width: 100%;
+        padding: 15px;
+        margin-top: 190px;
+        background-color: black;
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-family: Montserrat;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: all .4s ease-in-out;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box {
+        width: 100%;
+    }
+
+    section #pricing-calculator .inner-section .raw {
+        width: 100%;
+        /* border: 2px solid black; */
+        margin-top: 30px;
+    }
+
+    section #pricing-calculator .inner-section .raw {
+        width: 100%;
+        /* border: 2px solid black; */
+        margin-top: 30px;
+    }
+
+    section #pricing-calculator h2 {
+        font-family: 'Poppins' !important;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box h1 {
+        color: white;
+        font-size: 22px;
+        font-family: 'Poppins' !important;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box p {
+        color: white;
+        font-size: 16px;
+        font-family: 'Poppins' !important;
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 100%;
+        /* border: 2px solid black; */
+        padding: 100px 8px;
+    }
+
+    section #pricing-calculator {
+        width: 100%;
+        margin-top: 100px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 20px 40px;
+        box-shadow: 4px 4px 10px gray;
+        position: absolute;
+        bottom: -670px;
+    }
+
+    #Who-We-Are-Actually {
+        padding-top: 262px;
+    }
+
+    .Who-We-Are-Actually-right-box {
+        width: 100%;
+        /* border: 2px solid black; */
+        padding-left: 0px;
+    }
+
+    .Satisfaction-icon-box img {
+        filter: invert(100%);
+        width: 100%;
+        margin-top: -152px;
+    }
+
+    .Who-We-Are-Actually-right-box-main-para {
+        width: 100%;
+        /* border: 2px solid purple; */
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .Satisfaction-para-box-heading {
+        font-size: 24px;
+        font-family: 'poppins';
+        color: white;
+    }
+
+    .Your-Essay-Right-Now-heading-style {
+        font-size: 30px;
+        font-family: poppins;
+        font-weight: 800;
+        text-align: center;
+        color: white;
+    }
+
+    .Your-Essay-Right-Now-heading-sub-box p {
+        font-size: 16px;
+        font-family: 'poppins';
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .Satisfaction-icon-box img {
+        filter: invert(100%);
+        width: 100%;
+        margin-top: -152px;
+        display: none;
+    }
+    .Your-Essay-Right-Now-btn {
+        width: 100%;
+        /* border: 2px solid black; */
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .Your-Essay-Right-Now-btn a button {
+        width: 230px;
+        padding: 15px;
+        margin-left: 0px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        font-weight: bolder;
+    }
+
+    .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-left-box-heading-style {
+        font-size: 30px;
+        font-family: 'poppins';
+        color: black;
+    }
+
+    #Excellency-With-Consistency-Best-Essay-Writers-In-UAE-right-box-heading-style {
+        margin-left: 0px;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-left-box p {
+        font-size: 16px;
+        font-family: 'poppins';
+        margin-top: 20px;
+    }
+
+    .First-Class-Essay-Writing-Help-In-Dubai-right-box p {
+        font-size: 16px;
+    }
+
+    #Excellency-With-Consistency-Best-Essay-Writers-In-UAE {
+        padding-top: 0px;
+    }
+
+    #Excellency-With-Consistency-Best-Essay-Writers-In-UAE {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .Complete-Solution-For-Your-Essay-Writing-sub-box {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px px;
+    }
+
+    .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-sub-box {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .First-Class-Essay-Writing-Help-In-Dubai-box {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    #horizontal-line-main-box {
+        padding: 20px 0px;
+    }
+
+    .complete-Solution-For-Your-Essay-Writing-heading-style {
+        font-size: 30px;
+        font-family: 'poppins';
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-box-heading-style {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: none;
+    }
+
+    section#Excellency-With-Consistency-Best-Essay-Writers-In-UAE {
+        padding-top: 50px;
+        padding-bottom: 0px;
+        background-image: url("Image/Three-color-section-flag.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+    }
+
+    .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-main-heading-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-heading-style {
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+
+    .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-sub-para-box p {
+        font-size: 16px;
+        color: white;
+        text-align: center;
+    }
+
+    .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-sub-para-box {
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-btn {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-btn a button {
+        width: 230px;
+        padding: 15px;
+        margin-left: 0px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        font-weight: bolder;
+    }
+
+    .Get-Free-NewsLetter-sub-box-heading-style {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Raleway' !important;
+        font-weight: bolder;
+    }
+
+    .Get-Free-NewsLetter-sub-box-heading {
+        width: 100%;
+        /* border: 2px solid purple; */
+        margin: auto;
+    }
+
+    .serach-bar a button {
+        width: 200px;
+        padding: 12px;
+        font-size: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        position: absolute;
+        right: 42px;
+        bottom: -74px;
+        transition: all .4s ease-in-out;
+    }
+
+    .serach-bar input {
+        width: 95%;
+        padding: 12px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        box-shadow: 4px 4px 10px gray;
+        margin-bottom: 74px;
+    }
+
+    .serach-bar a button {
+        width: 200px;
+        padding: 12px;
+        font-size: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        position: absolute;
+        right: 42px;
+        bottom: -3px;
+        transition: all .4s ease-in-out;
+    }
+
+    #horizontal-line-main-box {
+        padding: 0px 0px;
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-sub-box {
+        width: 100%;
+        /* border: 2px solid pink; */
+        margin: auto;
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box {
+        width: 100%;
+        /* border: 2px solid orangered; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-left-heading-style {
+        font-size: 30px;
+        font-family: 'Raleway' !important;
+        margin-bottom: 20px;
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-right p {
+        font-family: Montserrat !important;
+        font-size: 16px;
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn {
+        width: 90%;
+        /* border: 2px solid black; */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn a button {
+        width: 230px;
+        padding: 15px;
+        margin-left: 0px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: transparent;
+        color: #00732F;
+        border: 2px solid #00732F;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        font-weight: bolder;
+        font-family: 'Montserrat' !important;
+    }
+    .Who-We-Are-Actually-left-box {
+        width: 100%;
+        /* border: 2px solid black; */
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .Who-We-Are-Actually-left-box img {
+        width: 87%;
+        margin-left: 0px;
+    }
+    .Who-We-Are-Actually-right-box-content-heading-style {
+        font-size: 30px;
+        font-family: 'poppins' !important;
+        font-weight: 800;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-right-box-heading {
+        font-size: 30px;
+        font-family: 'Raleway' !important;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-right-box p {
+        font-size: 16px;
+        font-family: 'Montserrat' !important;
+        margin-top: 30px;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn {
+        width: 100%;
+        /* border: 2px solid orange; */
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn-edit {
+        background-color: black;
+        width: 230px;
+        color: white;
+        border: 2px solid black;
+        margin-left: 0px;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn a button {
+        width: 230px;
+        padding: 15px;
+        margin-left: 0px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: transparent;
+        color: #2D2D2D;
+        border: 2px solid #00732F;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        font-weight: bolder;
+        font-family: 'Montserrat' !important;
+    }
+    #service-footer-box {
+        width: 100%;
+    }
+    #service-footer-box ul a li img {
+        width: 6%;
+        margin-right: 10px;
+    }
+    .footer-first-box {
+        width: 100% !important;
+        /* border: 2px solid orange; */
+    }
+    .footer-contact-sub-box {
+        width: 100%;
+        /* border: 2px solid purple; */
+        margin: auto;
+    }
+    .footer-contact-sub-real-box {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer-contact-email-box {
+        width: 100% !important;
+        /* border: 2px solid rgb(148, 148, 148); */
+        display: flex;
+        align-items: center;
+    }
+    .footer-contact-email-box a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    .footer-first-box p {
+        color: white;
+        font-family: 'Montserrat' !important;
+    }
+    .footer-contact-email-box a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-family: 'Montserrat' !important;
+    }
+    #service-footer-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .Deadline {
+        width: 100%;
+        overflow: scroll;
+    }
+    .Deadline table {
+        width: 100%;
+        padding: 0 0px;
+    }
+    #silver-sub-box-content-box-adjust-width {
+        width: 300px;
+    }
+    .silver-sub-box-content-and-dotted-box p {
+        font-size: 16px ;
+    }
+    .silver-sub-box-content-box a button {
+        width: 250px;
+        margin-top: 30px;
+        padding: 15px;
+        background-color: #000000;
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+        font-weight: 900;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+    }
+    .silver-sub-box-content-box {
+        width: 300px;
+        /* border: 2px solid green; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 0;
+        padding-left: 20px;
+        background-color: white;
+        box-shadow: 4px 4px 10px gray;
+        border-radius: 20px;
+    }
+    .silver-sub-box {
+        width: 100%;
+        /* border: 2px solid rgb(77, 26, 43); */
+        margin: auto;
+    }
+    #silver-sub-box-content-box-adjust-width{
+        width: 300px;
+      }
+      .adjust-price-image-size {
+        width: 404px;
+        margin-top: -41px !important;
+      }
+      .privacy-policy-para-sub-box-para-content-heading-style {
+        font-size: 30px;
+        font-family: 'Raleway' !important;
+    }
+    .privacy-policy-para-sub-box-para-content-paragraph p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    #Who-We-Are-Actually {
+        padding-top: 259px !important;
+        padding-bottom: 76px;
+    }
+    #nav-btn-adjust {
+        width: 300px;
+        background-color: green;
+        color: white;
+        border: none;
+        margin-left: 20px;
+        margin-top: 10px;
+        animation: whatsapp 1s infinite ease-in-out alternate;
+    }
+    .Satisfaction-main-box {
+        width: 58%;
+        border: none;
+        background-color: #fc5757;
+        box-shadow: 4px 4px 20px rgb(255, 130, 130);
+        position: absolute;
+        bottom: -302px;
+        right: 29px;
+        padding-left: 0px !important;
+        padding: 40px 10px !important;
+        /* padding-top: 24px; */
+    }
+    .Satisfaction-icon-box {
+        width: 0%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rotate-heading h2 {
+        font-size: 40px;
+        font-family: 'Montserrat' !important;
+        position: relative;
+        display: none;
+    }
+    section#reviews section.inner-section {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+        width: 100%;
+        min-width: 0px;
+        padding-left: 20px;
+    }
+    .review-headig-main-box{
+        width: 100%;
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+        display: block;
+        
+         }
+    .review-headig-main-box-heading-style{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        display: block;
+       }
+       section#background-header {
+        width: 100%;
+        background-image: none;
+        background-position: center;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 447px;
+        padding-top: 50px;
+    }
+}
+
+
+@media (max-width:375px) {
+
+    section #pricing-calculator {
+        width: 100%;
+        margin-top: 100px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 20px 40px;
+        box-shadow: 4px 4px 10px gray;
+        position: absolute;
+        bottom: -700px;
+    }
+
+    section #pricing-calculator h2 {
+        font-family: 'Poppins' !important;
+        font-weight: bold;
+        font-size: 27px;
+    }
+
+    section #pricing-calculator .inner-section .side-bar {
+        width: 100%;
+        padding: 30px 1px;
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        position: absolute;
+        right: 0px;
+        top: 380px;
+    }
+
+    section #pricing-calculator {
+        width: 100%;
+        margin-top: 100px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 20px 15px;
+        box-shadow: 4px 4px 10px gray;
+        position: absolute;
+        bottom: -659px;
+    }
+
+    .Who-We-Are-Actually-right-box-content-heading-style {
+        font-size: 29px;
+        font-family: 'poppins' !important;
+        font-weight: 800;
+    }
+
+    .Satisfaction-main-box {
+        width: 100%;
+        /* border: 2px solid rgb(226, 21, 21); */
+        background-color: #fc5757;
+        box-shadow: 4px 4px 20px rgb(255, 130, 130);
+        position: static;
+        bottom: 0px;
+        right: 0px;
+        padding: 40px 5px;
+        padding-left: 5px !important;
+    }
+
+    .Satisfaction-icon-box img {
+        filter: invert(100%);
+        width: 100%;
+        margin-top: -175px;
+    }
+
+    .Get-Free-NewsLetter-main-box {
+        width: 100%;
+        border: 2px solid black;
+        margin: auto;
+    }
+
+    .Get-Free-NewsLetter-sub-box {
+        width: 100%;
+        /* border: 2px solid black; */
+        margin: auto;
+    }
+
+    .serach-bar a button {
+        width: 200px;
+        padding: 12px;
+        font-size: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        position: absolute;
+        right: 42px;
+        bottom: -3px;
+        transition: all .4s ease-in-out;
+    }
+
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-right p {
+        font-family: Montserrat !important;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width:320px) {
+    .Who-We-Are-Actually-right-box-content-heading-style {
+        font-size: 24px;
+        font-family: 'poppins' !important;
+        font-weight: 800;
+    }
+
+    .Who-We-Are-Actually-right-box-main-para {
+        width: 100%;
+        /* border: 2px solid purple; */
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .Satisfaction-para-box-heading {
+        font-size: 20px;
+        font-family: 'poppins';
+        color: white;
+        font-weight: bolder;
+    }
+
+    .Satisfaction-main-box {
+        width: 100%;
+        /* border: 2px solid rgb(226, 21, 21); */
+        background-color: #fc5757;
+        box-shadow: 4px 4px 20px rgb(255, 130, 130);
+        position: static;
+        bottom: 0px;
+        right: 0px;
+        padding: 40px 5px;
+        padding-left: 5px !important;
+    }
+
+    .Satisfaction-icon-box img {
+        filter: invert(100%);
+        width: 100%;
+        margin-top: -226px;
+    }
+    .serach-bar a button {
+        width: 200px;
+        padding: 12px;
+        font-size: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        position: absolute;
+        right: 30px;
+        bottom: -3px;
+        transition: all .4s ease-in-out;
+    }
+    .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn {
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer-contact-email-box a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-family: 'Montserrat' !important;
+    }
+    .footer-contact-email-box i {
+        font-size: 25px;
+        color: white;
+        margin-right: 9px !important;
+    }
+
+    .adjust-price-image-size {
+        width: 319px;
+        margin-top: -29px !important;
+    }
+    .silver-sub-box-content-box {
+        width: 267px;
+        /* border: 2px solid green; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 0;
+        background-color: white;
+        box-shadow: 4px 4px 10px gray;
+        border-radius: 20px;
+    }
+    #silver-sub-box-content-box-adjust-width {
+        width: 267px !important;
+    }
+    .about-main-heading-style {
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Raleway' !important;
+        text-align: center;
+        color: white;
+    }
+    .silver-sub-box-content-and-dotted-box {
+        width: 100%;
+        display: flex;
+        padding-left: 10px;
+        align-items: center;
+    }
+    div#silver-sub-box-content-and-dotted-box-add-margin p {
+        font-size: 16px !important;
+    }
+    div#silver-sub-box-content-and-dotted-box-adjust-margin p {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width:360px) {
+    .adjust-price-image-size {
+        width: 338px;
+        margin-top: -41px !important;
+    }
+    .silver-sub-box-content-and-dotted-box p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:430px) {
+    .Deadline {
+        width: 100%;
+        /* border: 2px solid orange; */
+        overflow: scroll !important;
+    }
+    img.adjust-price-image-size {
+        width: 305px;
+    }
+    .silver-sub-box-content-box img {
+        margin-top: -1px;
+    }
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box {
+        width: 100%;
+        padding-right: 0px !important;
+    }
+    section #pricing-calculator {
+        width: 100%;
+        margin-top: 100px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 20px 40px;
+        box-shadow: 4px 4px 10px gray;
+        position: absolute;
+        bottom: -635px;
+    }
+    section #pricing-calculator .inner-section input {
+        width: 100%;
+        padding: 15px;
+        margin-top: 181px;
+        background-color: black;
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Montserrat' !important;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: all .4s ease-in-out;
+    }
+    section #pricing-calculator .inner-section .side-bar {
+        width: 100%;
+        padding: 35px 0px;
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        position: absolute;
+        right: 4px;
+        top: 348px;
+    }
+    section #pricing-calculator .inner-section .raw {
+        width: 100%;
+        margin-top: 30px;
+    }
+    section #pricing-calculator .inner-section .raw .col select {
+        width: 100%;
+        padding: 10px;
+    }
+    #Who-We-Are-Actually {
+        padding-top: 235px;
+        padding-bottom: 50px;
+    }
+    .rotate-heading h2 {
+        font-size: 40px;
+        font-family: 'Montserrat' !important;
+        position: relative;
+        display: none;
+    }
+    #Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn-edit {
+        background-color: black;
+        width: 230px;
+        color: white;
+        border: 2px solid black;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #Get-Free-NewsLetter {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: none;
+    }
+    #Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        background-image: url(Image/FLage\ 2.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #Who-We-Are-Actually {
+        padding-top: 227px !important;
+        padding-bottom: 630px;
+    }
+    .Who-We-Are-Actually-left-box {
+        width: 100%;
+        /* border: 2px solid black; */
+        padding: 10px 0px;
+        display: flex;
+        /* justify-content: center; */
+    }
+}
+
+@media (max-width:540px) {
+    .Deadline {
+        width: 100%;
+        /* border: 2px solid orange; */
+        overflow: scroll;
+    }
+}
+
+@media (max-width:280px) {
+    section #pricing-calculator .inner-section .side-bar {
+        width: 100%;
+        padding: 35px 0px;
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        position: absolute;
+        right: 4px;
+        top: 385px;
+    }
+}
+
+@media (max-width:1440px) {
+    .Satisfaction-main-box {
+        width: 58%;
+        border: none;
+        background-color: #fc5757;
+        box-shadow: 4px 4px 20px rgb(255, 130, 130);
+        position: absolute;
+        bottom: -532px;
+        right: 29px;
+        padding: 40px 50px;
+        /* padding-top: 24px; */
+        padding-left: 70px !important;
+    }
+    
+}
+@media (max-width:1280px) {
+    .Satisfaction-main-box {
+        width: 58%;
+        border: none;
+        background-color: #fc5757;
+        box-shadow: 4px 4px 20px rgb(255, 130, 130);
+        position: absolute;
+        bottom: -575px;
+        right: 29px;
+        padding: 40px 50px;
+        /* padding-top: 24px; */
+        padding-left: 70px !important;
+    }
+    #Who-We-Are-Actually {
+        padding-top: 150px;
+        padding-bottom: 630px;
+    }
+}

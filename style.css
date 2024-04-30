@@ -1,0 +1,4343 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'poppins' !important; */
+    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
+}
+#error_msg{
+    color: #fdfdfd;
+    display: none;
+    transition: .3s ease-in;
+    margin: 20px 0px;
+    background: #fd2929;
+    padding: 10px;
+    border-radius: 12px;
+}
+#totalprice{   font-size: 43px;
+    font-weight: bolder;
+    color: green;
+}
+.input_box input{
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 12px;
+  margin: 0;
+  width: 100%;
+
+}
+section#contact-form .form .raw .two_col{
+  width: 50% !important;
+  
+}
+#paper-topic{
+  width: 100%;
+  height: 45px;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+#two_col{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 1);
+  padding: 15px 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+header .logo {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #333;
+}
+
+header .navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+header .navbar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  color: #000000;
+  font-family: 'poppins' !important; 
+  display: block;
+  font-weight: bold;
+}
+
+header .navbar ul .nav-bar-hover-effect a:hover {
+  border-bottom: 2px solid red;
+  color: red;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background-color: #dedede;
+  display: none;
+}
+
+header .navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgb(31, 31, 31);
+}
+
+header .navbar ul li:focus-within>ul,
+header .navbar ul li:hover>ul {
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+
+
+header label {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+button#new-nav-order-now-btn {
+  width: 130px;
+  padding: 9px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  animation: order  1s infinite ease-in-out alternate;
+
+}
+@keyframes order{
+  100%{
+    transform: scale(1.1);
+  }
+} 
+button#new-nav-Lets-Talk-now-btn {
+
+  width: 130px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-size: 18px;
+  /* margin-left: 20px; */
+  border: 2px solid #007332;
+  padding: 9px;
+  border-radius: 5px;
+  transition: all .4s ease-in-out;
+
+  /* box-shadow: 4px 4px 0px #b9b9b9, inset 4px 4px 20px #00ff7e; */
+}
+button#new-nav-Lets-Talk-now-btn:hover{
+  background-color: #007332;
+  color: white;
+  transform: scale(1.05);
+}
+button#new-nav-order-now-btn:hover .new-nav-btn{
+  border-bottom: none !important;
+}
+header .navbar ul li ul li a{
+  padding: 5px !important;
+font-size: 16px !important;
+}
+@media (max-width:991px) {
+  header {
+      padding: 20px;
+  }
+
+  header label {
+      display: initial;
+  }
+
+  header .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: white;
+      border-top: 1px solid rgb(0, 0, 0, 1);
+  display:none;
+  }
+  header .navbar ul {
+    list-style: none;
+    display: block;
+    align-items: center;
+}
+  header .navbar ul li{
+      width: 100%;
+  }
+  header .navbar ul li ul{
+      position: relative;
+width: 100%;
+  }
+  header .navbar ul li ul li{
+      background-color: #eee;
+  }
+
+  header .navbar ul li ul li ul{
+      width: 100%;
+      left: 0;
+  }
+  #menu-bar:checked ~ .navbar{
+      display: initial;
+  }
+}
+
+/* main background section  */
+
+  section#background-header {
+    width: 100%;
+    background-image: url("Image/Banner-Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 447px;
+}
+
+section#background-header .inner-section .background-header-content{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    }
+
+    section#background-header .inner-section{
+        position: relative;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box{
+
+        width: 50%;
+
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box h1{
+        color: white;
+        font-size: 40px;
+        font-family: 'Poppins' !important;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box p{
+        color: white;
+        font-size: 20px;
+        font-family: 'Poppins' !important;
+        margin-top: 20px;
+    }
+
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box input{
+        width: 180px;
+        padding: 15px;
+        font-family: 'Poppins' !important;
+        font-weight: bold;
+        margin-top: 30px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        transition: all .4s ease-in-out;
+        font-size: 16px;
+    }
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box input:hover{
+        transform: scale(1.1);
+        background-color: rgb(211, 0, 0);
+        /* box-shadow: 4px 4px 10px rgb(206, 206, 206); */
+        box-shadow: 4px 4px 10px rgb(32, 160, 9);
+
+    }
+
+   section #pricing-calculator{
+    width: 100%;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px 80px;
+    box-shadow: 4px 4px 10px gray;
+    position: absolute;
+    bottom: -486px;
+   }
+
+
+
+   section #pricing-calculator h2{
+    font-family: 'Poppins' !important;
+    font-weight: bold;
+    font-size: 40px;
+   }
+
+   section #pricing-calculator .inner-section{
+    position: relative;
+   }
+
+   section #pricing-calculator .inner-section .raw{
+    width: 70%;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+   
+   }
+
+   section #pricing-calculator .inner-section .raw .col{
+    display: flex;
+    justify-content: space-around;
+}
+
+section #pricing-calculator .inner-section .raw .col select{
+       width: 300px;
+       padding: 10px;
+
+   }
+
+
+   section #pricing-calculator .inner-section .side-bar{
+    width: 25%;
+    padding: 30px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    top: 55px;
+
+   }
+
+   section #pricing-calculator .inner-section .side-bar h4{
+font-size: 20px;
+text-align: center;
+margin-bottom: 10px;
+   }
+
+   section #pricing-calculator .inner-section input{
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+   }
+   section #pricing-calculator .inner-section input:hover{
+    transform: scale(1.02);
+    box-shadow: 4px 4px 10px rgb(104, 104, 104);
+    box-shadow: 4px 4px 10px rgb(206, 206, 206);
+   }
+   section#contact-form {
+    margin-top: 27px;
+}
+
+   section#contact-form .form .side-bar .cost {
+    width: 100%;
+    background: transparent !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 160px;
+    border-radius: 10px;
+}
+
+
+   section#count-down{
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    padding: 20px 0;
+    margin-top: 58px;
+   }
+
+
+   section#count-down .inner-section .main-counting-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+
+   section#count-down .inner-section .counting-box{
+    width: 194px;
+    padding: 20px;
+   }
+
+   section#count-down .inner-section .counting-box h2{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+
+   }
+
+   section#count-down .inner-section .counting-box h5{
+    text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    margin-top: 10px;
+color: white;
+   }
+/* main background section  */
+#Who-We-Are-Actually{
+  padding-top: 150px;
+}
+.Who-We-Are-Actually-box{
+  width: 100%;
+  border: 2px solid purple;
+  display: flex;
+  position: relative;
+}
+
+.Who-We-Are-Actually-left-box{
+  width: 50%;
+  border: 2px solid black;
+  padding:10px 20px ;
+}
+.Who-We-Are-Actually-left-box img{
+  width: 100%;
+}
+
+.Who-We-Are-Actually-right-box{
+  width: 50%;
+  border: 2px solid black;
+  padding-left: 30px;
+}
+.Who-We-Are-Actually-right-box-content{
+  width: 90%;
+  border: 2px solid orangered;
+}
+.Who-We-Are-Actually-right-box-content-heading-box{
+  width: 100%;
+  border: 2px solid peru;
+}
+.Who-We-Are-Actually-right-box-content-heading-style{
+  font-size: 40px;
+font-family: 'poppins';
+font-weight: 800;
+}
+.Who-We-Are-Actually-right-box-main-para{
+  width: 100%;
+  border: 2px solid purple;
+padding-top: 10px;
+}
+
+.Who-We-Are-Actually-right-box-main-para p{
+  font-family: 'poppins';
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.Satisfaction-main-box{
+width: 60%;
+border: 2px solid rgb(226, 21, 21);
+background-color: red;
+position: absolute;
+bottom: 0;
+right: 0;
+padding:40px 50px;
+padding-left: 70px !important;
+
+}
+
+.Satisfaction-sub-box{
+  width: 100%;
+  border: 2px solid green;
+}
+
+.Satisfaction-content-box{
+width: 100%;
+border: 2px solid olivedrab;
+margin: auto;
+display: flex;
+}
+
+.Satisfaction-icon-box{
+  width: 10%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Satisfaction-icon-box img{
+  filter: invert(100%);
+  width: 100%;
+}
+.Satisfaction-para-box{
+  width: 85%;
+  border: 2px solid palevioletred;
+  margin-left: 10px;
+}
+.Satisfaction-para-box-heading{
+  font-size: 40px;
+  font-family: 'poppins';
+  color: white;
+}
+.Satisfaction-para-box p{
+  font-size: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' !important;
+}
+
+/* START HEADER SECTION  */
+.header {
+    width: 100%;
+    background-color: rgb(67, 67, 67);
+    box-shadow: 4px 4px 20px rgb(156, 156, 156);
+  }
+  
+  .header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 140px;
+    color: white;
+  }
+  
+  .header p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .header-btn {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  
+  }
+  
+  .header-btn a button {
+  
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  
+  
+  }
+  
+  .nav {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  .nav>.nav-header {
+    display: inline;
+  }
+  
+  .nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav>.nav-header>.nav-title h1 {
+    color: #6a6a6a;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3px;
+  }
+  
+  .nav>.nav-btn {
+    display: none;
+  }
+  
+  .nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    margin-top: 12px;
+    display: flex;
+  }
+  
+  .nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #6a6a6a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+  }
+  
+  .nav>.nav-links>a:hover {
+    border-bottom: 2px solid red;
+  }
+  
+  .nav>#nav-check {
+    display: none;
+  }
+  @media (max-width:1024px) {
+    .nav>.nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  
+    .nav>.nav-btn>label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      margin-top: 10px;
+    }
+  
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  
+    .nav>.nav-btn>label>span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+  
+    .nav>.nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color:white;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+
+    }
+  
+    .nav>.nav-links>a {
+      display: block;
+      width: 100%;
+    }
+  
+    .nav>#nav-check:not(:checked)~.nav-links {
+      height: 0px;
+    }
+  
+    .nav>#nav-check:checked~.nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  @media (max-width:600px) {
+    .nav>.nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  
+    .nav>.nav-btn>label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      margin-top: 10px;
+    }
+  
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  
+    .nav>.nav-btn>label>span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+  
+    .nav>.nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+  
+    .nav>.nav-links>a {
+      display: block;
+      width: 100%;
+    }
+  
+    .nav>#nav-check:not(:checked)~.nav-links {
+      height: 0px;
+    }
+  
+    .nav>#nav-check:checked~.nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
+  @media (max-width:921px) {
+    .nav>.nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  
+    .nav>.nav-btn>label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      margin-top: 10px;
+    }
+  
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+      background-color: rgba(202, 199, 199, 0.3);
+    }
+  
+    .nav>.nav-btn>label>span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #505050;
+    }
+  
+    .nav>.nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: white;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+  
+    .nav>.nav-links>a {
+      display: block;
+      width: 100%;
+    }
+  
+    .nav>#nav-check:not(:checked)~.nav-links {
+      height: 0px;
+    }
+  
+    .nav>#nav-check:checked~.nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
+  .nav-links button {
+    width: 130px;
+    padding: 9px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+  }
+  /* .nav-links button:hover{
+    transform: scale(1.1);
+  } */
+  .header .nav {
+    max-width: 89% !important;
+    margin: auto;
+    padding: 0 32px;
+  }
+  
+  .header {
+    background: #fff !important;
+    padding: 13px 0;
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+  }
+  
+  .nav>.nav-links>a {
+    font-family: 'Poppins' !important;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* END HEADER SECTION  */
+
+/* main background section  */
+
+  section#background-header {
+    width: 100%;
+    background-image: url("Image/Banner-Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 447px;
+    padding-top: 144px;
+}
+
+section#background-header .inner-section .background-header-content{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    }
+
+    section#background-header .inner-section{
+        position: relative;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box{
+
+width: 50%;
+
+padding-right: 91px;
+}
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box h1{
+        color: white;
+        font-size: 40px;
+        font-family: 'Raleway' !important;
+    }
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box p{
+        color: white;
+        font-size: 18px;
+        font-family: 'Montserrat' !important;
+        margin-top: 20px;
+    }
+
+
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box input{
+        width: 254px;
+        padding: 15px;
+        font-family: 'Poppins' !important;
+        font-weight: bold;
+        margin-top: 30px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        transition: all .4s ease-in-out;
+        font-size: 16px;
+    }
+    section#background-header .inner-section .background-header-content .background-header-content-sub-box input:hover{
+        transform: scale(1.1);
+        background-color: rgb(211, 0, 0);
+
+    }
+
+   section #pricing-calculator{
+    width: 100%;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px 80px;
+    box-shadow: 4px 4px 10px gray;
+    position: absolute;
+    bottom: -486px;
+   }
+
+
+
+   section #pricing-calculator h2{
+    font-family: 'Raleway' !important;
+    font-weight: bold;
+    font-size: 40px;
+   }
+
+   section #pricing-calculator .inner-section{
+    position: relative;
+   }
+
+   section #pricing-calculator .inner-section .raw{
+    width: 70%;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+   
+   }
+
+   section #pricing-calculator .inner-section .raw .col{
+    display: flex;
+    justify-content: space-around;
+}
+
+section #pricing-calculator .inner-section .raw .col select{
+       width: 46%;
+       /* padding: 16px; */
+       border: 2px solid #e6e6e6;
+   }
+
+
+   section #pricing-calculator .inner-section .side-bar{
+    width: 25%;
+    padding: 30px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    top: 86px;
+   }
+
+   section #pricing-calculator .inner-section .side-bar h4{font-size: 20px;text-align: center;margin-bottom: 10px;font-family: 'Montserrat' !important;}
+
+   section #pricing-calculator .inner-section input{
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat' !important;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+   }
+   section #pricing-calculator .inner-section input:hover{
+    transform: scale(1.02);
+    box-shadow: 4px 4px 10px rgb(104, 104, 104);
+   }
+   section#contact-form {
+    margin-top: 27px;
+}
+
+   section#contact-form .form .side-bar .cost {
+    width: 100%;
+    background: transparent !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 160px;
+    border-radius: 10px;
+}
+
+
+   section#count-down{
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    padding: 20px 0;
+    margin-top: 58px;
+   }
+
+
+   section#count-down .inner-section .main-counting-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+
+   section#count-down .inner-section .counting-box{
+    width: 194px;
+    padding: 20px;
+   }
+
+   section#count-down .inner-section .counting-box h2{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+
+   }
+
+   section#count-down .inner-section .counting-box h5{
+    text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    margin-top: 10px;
+color: white;
+   }
+/* main background section  */
+#Who-We-Are-Actually{
+  padding-top: 150px;
+  padding-bottom: 660px;
+}
+.Who-We-Are-Actually-box{
+  width: 100%;
+  border:none;
+  display: flex;
+  position: relative;
+}
+
+.Who-We-Are-Actually-left-box{
+  width: 50%;
+  border:none;
+  padding:10px 20px ;
+}
+.Who-We-Are-Actually-left-box img{
+  width: 87%;
+  margin-left: 37px;
+}
+
+.Who-We-Are-Actually-right-box{
+  width: 50%;
+  border:none;
+  padding-left: 30px;
+}
+.Who-We-Are-Actually-right-box-content{
+  width: 90%;
+  border:none;
+}
+.Who-We-Are-Actually-right-box-content-heading-box{
+  width: 100%;
+  border:none;
+
+}
+.Who-We-Are-Actually-right-box-content-heading-style{
+  font-size: 30px;
+  font-family: 'Raleway' !important;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.Who-We-Are-Actually-right-box-main-para{
+  width: 100%;
+  border:none;
+padding-top: 10px;
+}
+
+.Who-We-Are-Actually-right-box-main-para p{
+  font-family: 'Montserrat'!important;
+  margin-bottom: 20px;
+  font-size: 18px;
+  /* line-height: normal; */
+}
+
+.Satisfaction-main-box{width: 58%;border:none;background-color:#fc5757;box-shadow: 4px 4px 20px rgb(255, 130, 130);position: absolute;bottom: -484px;right: 29px;padding:40px 50px;/* padding-top: 24px; */padding-left: 70px !important;}
+
+.Satisfaction-sub-box{
+  width: 100%;
+  border:none;
+  
+}
+
+.Satisfaction-content-box{
+  width: 100%;
+  border:none;
+  margin: auto;
+  display: flex;
+  margin-top: 30px;
+}
+
+.Satisfaction-icon-box{
+  width: 10%;
+  border:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Satisfaction-icon-box img{
+  filter: invert(100%);
+  width: 100%;
+  margin-top: -204px;
+}
+.Satisfaction-para-box{
+  width: 85%;
+  border:none;
+  margin-left: 10px;
+}
+.Satisfaction-para-box-heading{
+  font-size: 30px;
+  font-family: 'Raleway'!important;
+  color: white;
+}
+.Satisfaction-para-box p{
+  font-size: 18px;
+  color: white;
+  font-family: 'Montserrat' !important;
+  margin-top: 27px;
+}
+
+/*counter section  */
+#counter{
+  background-color: #333;
+  padding-top: 50px;
+  padding-bottom: 50px;
+position: relative;
+
+}
+
+.counter-box{
+  width: 100%;
+  /* border: 2px solid rgb(255, 255, 255); */
+}
+.counter-sub-box{
+  width: 80%;
+  /* border: 2px solid white; */
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.first-counter-box{
+  width: 234px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.counter-box img {
+  position: absolute;
+  /* left: 0; */
+  top: 75px;
+  width: 190px  !important;
+}
+.counter-right-img{
+  position: absolute !important;
+  right: 0px;
+  width: 190px !important;
+}
+.first-counter-box-heading-style{
+  font-family: 'Poppins' !important;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+}
+.first-counter-box span{
+  font-size: 20px;
+  font-family: 'poppins';
+  font-weight: 800;
+  color: white;
+}
+/*counter section  */
+
+
+/* Your-Essay-Right-Now  */
+#Your-Essay-Right-Now{
+  background-image: url("Image/home\ page\ background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Your-Essay-Right-Now-heading-box{
+  width: 90%;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+.Your-Essay-Right-Now-heading-sub-box{
+  width: 80%;
+  /* border: 2px solid white; */
+  margin: auto;
+}
+.Your-Essay-Right-Now-heading-style{font-size: 40px;font-family: 'Montserrat' !important;font-weight: 800;text-align: center;color: white;}
+.Your-Essay-Right-Now-heading-sub-box p{
+  font-size: 18px;
+  font-family: 'Montserrat' !important;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.Your-Essay-Right-Now-main-box{
+  width: 100%;
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding:20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Your-Essay-Right-Now-sub-box{width: 251px;
+  /* border: 2px solid white; *//* background-color: white; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+.Your-Essay-Right-Now-sub-box:hover{
+  transform: scale(1.06);
+  /* box-shadow: 4px 4px 10px rgb(206, 206, 206); */
+}
+.Your-Essay-Right-Now-sub-box img{
+  transition: all .4s ease-in-out;
+}
+.Your-Essay-Right-Now-sub-box img:hover{
+  transform: scale(0.9);
+}
+.Your-Essay-Right-Now-sub-box-heading-style{
+  font-size: 20px;
+  font-family: 'poppins';
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+#adjust-second-image-size{
+  width: 35%;
+}
+.Your-Essay-Right-Now-sub-box p{font-family: 'poppins';margin-top: 2px;text-align: center;}
+
+.Your-Essay-Right-Now-btn{
+  width: 100%;
+  /* border: 2px solid black; */
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Your-Essay-Right-Now-btn a{
+  text-decoration: none;
+}
+
+.Your-Essay-Right-Now-btn a button{
+  width: 160px;
+  padding: 15px;
+  margin-left: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  font-weight:bolder;
+  font-family: 'Montserrat' !important;
+}
+.Your-Essay-Right-Now-btn a button:hover{
+  background-color: white;
+  transform: scale(1.1);
+  color: black;
+  box-shadow: 4px 4px 10px rgb(206, 206, 206);
+}
+#Your-Essay-Right-Now-btn-color-change{
+  background-color: black;
+  width: 230px;
+  color: white;
+  border: 2px solid black;
+}
+/* Your-Essay-Right-Now */
+
+
+
+ /* Complete Solution For Your Essay Writing */
+ #Complete-Solution-For-Your-Essay-Writing{
+  background-image:url("Image/solution-background-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-color: #f4edf5;
+ }
+
+ .Complete-Solution-For-Your-Essay-Writing-heading-main-box{
+  width: 100%;
+  /* border: 2px solid rgb(133, 78, 78); */
+ }
+
+ .Complete-Solution-For-Your-Essay-Writing-heading-sub-box{width: 60%;/* border: 2px solid purple; */margin: auto;}
+ .complete-Solution-For-Your-Essay-Writing-heading-style{
+  font-size: 40px;
+  font-family: 'Raleway' !important;
+  font-weight: bolder;
+  text-align: center;
+ }
+ .Complete-Solution-For-Your-Essay-Writing-main-box{width: 100%;/* border: 2px solid black; */margin-top: 70px;}
+ .Complete-Solution-For-Your-Essay-Writing-sub-box{
+  width: 88%;
+  /* border: 2px solid orangered; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+ }
+ #Complete-Solution-For-Your-Essay-Writing-sub-box-margin-top{
+  margin-top: 20px !important;
+  /* border: 2px solid black; */
+  width: 67%;
+ }
+ .Complete-Solution-For-Your-Essay-Writing-sub-box-first-box{width: 242px;/* border:2px solid black; */background-color: white;border-radius: 10px;display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 40px 10px;transition: all .4s ease-in-out;cursor: pointer;box-shadow: 4px 4px 10px #007332;}
+ .Complete-Solution-For-Your-Essay-Writing-sub-box-first-box:hover{
+transform: scale(1.05);
+box-shadow: 4px 4px 10px rgb(206, 206, 206);
+ }
+ .Complete-Solution-For-Your-Essay-Writing-sub-box-first-box img{
+  width: 22%;
+  transition: all .4s ease-in-out;
+}
+.Complete-Solution-For-Your-Essay-Writing-sub-box-first-box img:hover{
+  transform: scale(0.9);
+   }
+ .Complete-Solution-For-Your-Essay-Writing-sub-box-first-box-heading-style{
+  font-size: 16px;
+  font-family: 'Montserrat'!important;
+  text-align: center;
+  margin-top: 30px;
+ }
+ /* Complete Solution For Your Essay Writing */
+
+/* horizontal line  */
+#horizontal-line-main-box{padding: 0px 0px;padding-bottom: 0px;}
+.horizontal-line-main-box-line{
+  width: 100%;
+}
+.horizontal-line-main-box-line img{
+  width: 100%;
+}
+/* horizontal line  */
+
+ /* Excellency With Consistency, Best Essay Writers In UAE  */
+ section#Excellency-With-Consistency-Best-Essay-Writers-In-UAE {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("Image/Three-color-section-flag.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  
+}
+.Excellency-With-Consistency-Best-Essay-Writers-In-UAE-box{
+width: 90%;
+/* border: 2px solid black; */
+margin: auto;
+}
+.Excellency-With-Consistency-Best-Essay-Writers-In-UAE-sub-box{
+  width: 93%;
+/* border: 2px solid rgb(199, 199, 199); */
+margin: auto;
+display: flex;
+}
+.Excellency-With-Consistency-Best-Essay-Writers-In-UAE-left-box{
+  width: 50%;
+  /* border: 2px sloid red; */
+}
+.Excellency-With-Consistency-Best-Essay-Writers-In-UAE-left-box-heading-style{
+  font-size: 30px;
+  font-family: 'Raleway' !important;
+  color: black;
+}
+.Excellency-With-Consistency-Best-Essay-Writers-In-UAE-left-box p{font-size: 18px;font-family: 'Montserrat'!important;margin-top: 19px;}
+#Excellency-With-Consistency-Best-Essay-Writers-In-UAE-right-box-heading-style {
+  margin-left: 22px;
+  font-size: 30px;
+  margin-top: 0px;
+}
+p#Excellency-With-Consistency-Best-Essay-Writers-In-UAE-right-box-para-style {
+  margin-left: 22px;
+  margin-top: 18px;
+}
+.First-Class-Essay-Writing-Help-In-Dubai-box{width: 93%;/* border: 2px solid palevioletred; */margin: auto;display: flex;margin-top: 20px;flex-direction: column;align-items: center;}
+.First-Class-Essay-Writing-Help-In-Dubai-left-box{
+  width: 70%;
+  /* border: 2px solid peru; */
+  text-align: center;
+  margin-top: 30px;
+}
+.First-Class-Essay-Writing-Help-In-Dubai-right-box{
+  width: 100%;
+  /* border: 2px solid pink; */
+  margin-top: 20px;
+  text-align: center;
+}
+.First-Class-Essay-Writing-Help-In-Dubai-right-box p{
+  font-size: 16px;
+  font-family: 'Montserrat'!important;
+}
+ /* Excellency With Consistency, Best Essay Writers In UAE  */
+
+
+ /* Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place */
+ #Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place{
+padding-top: 50px;
+padding-bottom: 50px;
+ }
+
+ .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-box{
+  width: 90%;
+  /* border: 2px solid orchid; */
+  margin: auto;
+ }
+ .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-box{
+  width: 95%;
+  /* border: 2px solid powderblue; */
+  margin: auto;
+ }
+ .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-box-heading{
+  width: 70%;
+  /* border: 2px solid olive; */
+  margin: auto;
+ }
+ .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-box-heading-style{
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Raleway' !important;
+ }
+ .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-image-box{
+width: 100%;
+/* border: 2px solid black; */
+margin-top: 40px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+ }
+ .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-main-image-box{width: 141px;/* border: 2px solid rgb(185, 23, 23); */}
+ .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-image-box{
+  width: 100%;
+  /* border: 2px solid orchid; */
+  background-image: url("Image/image\ 1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 189px 0;
+  /* height: 307px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+ }
+ .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-image-box:hover{
+transform: scale(1.03);
+ }
+.Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-image-box-text-style{
+  font-size: 30px;
+  rotate: -90deg;
+  color: white;
+  font-family: 'Raleway' !important;
+}
+
+#Psychology{
+  background-image: url("Image/Psychology.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Literature{
+  background-image: url("Image/Literature.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Finance{
+  background-image: url("Image/Finance.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Nursing{
+  background-image: url("Image/Nursing.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Law{
+  background-image: url("Image/Law.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Sociology{
+  background-image: url("Image/Sociology.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ /* Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place */
+
+
+/* Opt For The Best And Cheap Writing Help In Abu Dhabi */
+#Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi{
+  padding-top: 50px;
+padding-bottom: 50px;
+background-image: url("Image/Cheap-pricing-background-image.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-main-box{
+  width: 100%;
+  /* border: 2px solid purple; */
+}
+
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-main-heading-box{
+width: 90%;
+/* border: 2px solid rgb(161, 40, 40); */
+margin: auto;
+}
+
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-sub-heading-box{width: 66%;/* border: 2px solid orangered; */margin: auto;}
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-heading-style{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-family: 'Raleway' !important;
+}
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-sub-para-box{
+  width: 90%;
+  /* border: 2px solid brown; */
+  margin: auto;
+  margin-top: 25px;
+}
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-sub-para-box p{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat' !important;
+}
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-btn{
+  width: 100%;
+  /* border: 2px solid purple; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-btn a{
+text-decoration: none;
+}
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-btn a button{
+  width: 160px;
+  padding: 15px;
+  margin-left: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  font-weight: bolder;
+  font-family: 'Montserrat' !important;
+}
+#Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-btn-adit{
+  background-color: black;
+    width: 230px;
+    color: white;
+    border: 2px solid black;
+}
+.Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-btn a button:hover{
+
+  background-color: white;
+      transform: scale(1.1);
+      color: black;
+      box-shadow: 4px 4px 10px rgb(206, 206, 206);
+}
+/* Opt For The Best And Cheap Writing Help In Abu Dhabi */
+
+
+ /* review section  */
+ #rewiews{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+ }
+ .review-headig-main-box{
+width: 100%;
+/* border: 2px solid black; */
+margin-bottom: 20px;
+display: none;
+
+ }
+ .review-headig-main-box-heading-style{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  display: none;
+ }
+ .review-main-box{
+  width: 90%;
+  /* border: 2px solid black; */
+  margin: auto;
+ }
+ .review-sub-box{
+  width: 93%;
+  /* border: 2px solid olivedrab; */
+  margin: auto;
+ }
+ .review-sub-box-heading{
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+ }
+ /* review section  */
+
+  /* Get Free NewsLetter */
+  #Get-Free-NewsLetter{
+    padding-top:50px;
+    padding-bottom: 50px;
+  }
+  .Get-Free-NewsLetter-main-box{
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: auto;
+  }
+  .Get-Free-NewsLetter-sub-box{
+    width: 93%;
+    /* border: 2px solid black; */
+    margin: auto;
+  }
+  .Get-Free-NewsLetter-sub-box-heading{
+    width: 70%;
+    /* border: 2px solid purple; */
+    margin: auto;
+  }
+  .Get-Free-NewsLetter-sub-box-heading-style{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Raleway' !important;
+    font-weight: bolder;
+  }
+  .serach-bar{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+margin-top: 40px;
+margin-bottom: 15px;
+position: relative;
+
+  }
+  .serach-bar input{
+    width: 95%;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 4px 4px 10px gray;
+  }
+  .serach-bar a button{
+    width: 200px;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    transition: all .4s ease-in-out;
+  }
+  .serach-bar a button:hover{
+    transform: translateX(10px);
+    box-shadow: 4px 4px 10px rgb(26, 160, 26);
+  }
+  /* Get Free NewsLetter */
+
+
+  /* Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE */
+  #Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE{
+padding-top: 50px;
+padding-bottom: 50px;
+background-image: url("Image/FLage\ 2.webp");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  }
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-main-box{
+    width: 100%;
+    /* border: 2px solid black; */
+  }
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-sub-box{
+    width: 90%;
+    /* border: 2px solid pink; */
+    margin: auto;
+  }
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box{
+    width: 93%;
+    /* border: 2px solid orangered; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-left{
+    width: 43%;
+    /* border: 2px solid blue; */
+  }
+.Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-left-heading-style{
+  font-size: 40px;
+  font-family: 'Raleway' !important;
+}
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-right{
+    width: 49%;
+    /* border: 2px solid rgb(0, 0, 83); */
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-right p{font-family: Montserrat;font-size: 18x;}
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn{
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn a{
+    text-decoration: none;
+  }
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn a button{
+    width: 160px;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #00732F;
+    border: 2px solid #00732F;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    font-weight: bolder;
+    font-family: 'Montserrat' !important;
+  }
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn a button:hover{
+    background-color: #00732F;
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(206, 206, 206);
+  }
+
+  #Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn-edit{
+    background-color: black;
+    width: 230px;
+    color: white;
+    border: 2px solid black;
+  }
+  /* Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE */
+
+  /* Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi */
+  #Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi{padding-top: 50px;padding-bottom: 50px;position: relative;}
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-box{
+    width: 100%;
+    /* border: 2px solid black; */
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-main-box{
+    width: 90%;
+    /* border: 2px solid purple; */
+    margin: auto;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-sub-box{
+    width: 93%;
+    /* border: 2px solid rgb(255, 46, 255); */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-left-box{
+    width: 45%;
+    /* border: 2px solid brown; */
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-left-box img{
+    position: absolute;
+    left: 0;
+    width: 643px;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-right-box{
+    width: 48%;
+    /* border: 2px solid rgb(104, 0, 0); */
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-right-box-heading{
+    font-size: 30px;
+    font-family: 'Raleway' !important;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-right-box p{
+    font-size: 17px;
+    /* font-family: 'Montserrat' !important; */
+    margin-top: 30px;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn{
+    width: 100%;
+    /* border: 2px solid orange; */
+    margin-top: 40px;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn a{
+    text-decoration: none;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn a button{
+    width: 154px;
+    padding: 15px;
+    margin-left: 0px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #2D2D2D;
+    border: 2px solid #00732F;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    font-weight: bolder;
+    font-family: 'Montserrat' !important;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn a button:hover{
+    background-color: #00732F;
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(206, 206, 206);
+  }
+  #Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn-edit{
+    background-color: black;
+    width: 230px;
+    color: white;
+    border: 2px solid black;
+    margin-left: 10px;
+  }
+  /* Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi */
+
+
+  /* Several-Queries-Going-On-Your-Mind?-We-Have-All-The-Answers */
+  #Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers{
+padding-top: 50px;
+padding-bottom: 50px;
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-box{
+    width: 100%;
+    /* border: 2px solid rebeccapurple; */
+
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-main-box{
+    width: 90%;
+    /* border: 2px solid brown; */
+    margin: auto;
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box{
+    width: 93%;
+    /* border: 2px solid olivedrab; */
+    margin: auto;
+
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-heading{
+    width: 65%;
+    /* border: 2px solid peru; */
+    margin: auto;
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-heading-style{
+    font-size: 30px;
+    font-family: 'Raleway' !important;
+    text-align: center;
+    font-weight: bolder;
+}
+.Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-para{
+  width: 90%;
+  /* border: 2px solid powderblue; */
+  margin: auto;
+  margin-top: 20px;
+}
+.Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-para p{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Montserrat';
+}
+.Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-faq-box{
+  width: 100%;
+  /* border: 2px solid rgb(63 62 131); */
+  margin-top: 20px;
+}
+/* Several-Queries-Going-On-Your-Mind?-We-Have-All-The-Answers */
+
+
+/* footer section  */
+#footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2A2A2A;
+}
+.footer-main-box{
+  width: 100%;
+  /* border: 2px solid black; */
+}
+.footer-sub-box{
+  width: 90%;
+  /* border: 2px solid pink; */
+  margin: auto;
+}
+.footer-content-box{
+width: 93%;
+/* border: 2px solid purple; */
+margin: auto;
+display: flex;
+justify-content:space-evenly;
+
+}
+.footer-first-box{
+  width: 400px;
+  /* border: 2px solid orange; */
+  padding-right: 0px;
+}
+.footer-first-box-heading{
+  font-size: 27px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bolder;
+  margin-top: -23px !important;
+}
+.social-media-icon{
+  width: 100%;
+  /* border: 2px solid black; */
+margin-top: 20px;
+}
+.social-media-icon a i{
+  font-size: 40px;
+  margin-right: 10px;
+  color: white;
+}
+.social-media-icon a i:hover{
+  transform: scale(1.1);
+  /* background-color: #fc5757; */
+  color:red;
+ /* box-shadow:4px 4px 10px #00732F; */
+}
+.social-media-icon a img:hover{
+  transform: scale(1.1);
+}
+#facebook:hover{
+color: #405e90;
+}
+#twitter:hover{
+  color:#74c0e7 ;
+}
+#linkedin:hover{
+  color: #0078b4;
+}
+#instagram:hover{
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #742fa3, #e90d19, #fac513);
+  background-size: 100%;
+  --webkit-background-clip: text;
+  --moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+#service-footer-box{
+  width: 450px;
+  padding-left: 70px;
+  padding-top: 5px;
+}
+#service-footer-box ul{
+list-style: none;width: 100%;
+/* border: 2px solid green; */
+margin-top: 10px;
+}
+#service-footer-box ul li{
+  width: 100%;
+  /* border: 2px solid orchid; */
+  display: flex;
+  margin-top: 10px;
+  padding-left: 25px;
+}
+#service-footer-box ul a{
+  text-decoration: none;
+  color: white;
+}
+#service-footer-box ul a li img{
+  width: 10%;
+  margin-right: 10px;
+  filter: invert(100%);
+}
+#service-heading-edit{font-family: 'Raleway' !important;font-size: 27px;font-weight: bolder;padding-left: 26px;}
+.footer-first-box p {
+  color: white;
+  text-align: justify;
+}
+.footer-first-box p:hover{
+  color: #fc5757;
+}
+#footer-contact{
+  padding-top: 10px;
+  padding-bottom: 9px;
+  background-color: #1e5d39;
+}
+.footer-contact-main-box{
+ width: 100%;
+ /* border: 2px solid rgb(255, 255, 255); */
+}
+.footer-contact-sub-box{
+  width: 90%;
+  /* border: 2px solid purple; */
+  margin: auto;
+}
+.footer-contact-sub-real-box{
+  width: 93%;
+  /* border: 2px solid orange; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-contact-email-box{
+  width: 370px;
+  /* border: 2px solid rgb(148, 148, 148); */
+  display: flex;
+  align-items: center;
+}
+.footer-contact-email-box i{
+  font-size: 30px;
+  color: white;
+  margin-right: 4px;
+}
+.footer-contact-email-box  a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.footer-contact-email-box  a:hover{
+  color: #fc5757;
+}
+#footer-contact-email-box-edit{
+  width: 370px;
+}
+#footer-contact-email-box-edit span{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#footer-contact-email-box-display-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#copy-right{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:#FF0000;
+}
+.copy-right-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy-right-box-heading{
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+}
+/* footer section  */
+
+
+.accordion-container {
+  width: 100%;
+  /* max-width: 600px; */
+}
+
+.accordion-item {
+  background-color: #FFFFFF; /* White background for items */
+  border: 1px solid #E0E0E0; /* Light border */
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Softer shadow */
+  padding: 10px;
+}
+
+.accordion-header {
+  background-color: #ffffff; /* Soft purple */
+  color: #000000; /* White text */
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #ffffff; /* Darker shade of purple */
+}
+
+.accordion-content {
+  background-color: #FAFAFA; /* Very light grey for content */
+  overflow: hidden;
+  padding: 0 15px;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-content p {
+  margin: 15px 0;
+  line-height: 1.5;
+  font-size: 16px !important;
+}
+
+.icon {
+  transition: transform 0.3s ease;
+  color: black;
+}
+
+.active .icon {
+  transform: rotate(45deg);
+}
+
+.social-media-icon img {
+  width: 29px;
+}
+
+.horizontal-line-width-adjust{
+  width: 80%;
+  /* border: 2px solid brown; */
+  margin: auto;
+}
+
+/* about page secion  */
+#about-main{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #00732F;
+}
+.about-main-heading-box{
+width: 50%;
+/* border: 2px solid rgb(187, 80, 80); */
+margin: auto;
+}
+.about-main-heading-style{
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Raleway' !important;
+  text-align: center;
+  color: white;
+}
+.about-main-heading-box p{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Montserrat';
+color: white;
+font-size: 20px;
+}
+.about-main-btn{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.about-main-btn a button{
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+
+.about-main-btn a button:hover{
+transform: scale(1.1);
+box-shadow:4px 4px 10px #1C1C1C;
+}
+.our-team-main-box{
+  width: 100%;
+  /* border: 2px solid purple; */
+}
+.our-team-heading{
+  width: 100%;
+  /* border: 2px solid black; */
+}
+.our-team-heading-style{
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Raleway';
+}
+.our-team-image-box{
+  width: 90%;
+  /* border: 2px solid orange; */
+  margin: auto;
+  margin-top: 40px;
+}
+.our-team-sub-box{
+  width: 95%;
+  /* border: 2px solid palevioletred; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.image-box{
+  width: 200px;
+  /* border: 2px solid orchid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all .4s;
+}
+.image-box:hover img{
+transform: scale(1.05);
+}
+.image-box span{
+  margin-top: 20px;
+  font-weight: 900;
+}
+/* about page secion  */
+
+
+/* pricing section  */
+#Academic-Writing{
+padding-top: 30px;
+padding-bottom: 20px;
+}
+#Pricing-main{
+background-color: #2D2D2D;
+}
+.Academic-Writing-main-box{
+  width: 100%;
+  /* border: 2px solid orange; */
+}
+.academic-writing-sub-box{
+  width: 90%;
+  /* border: 2px solid purple; */
+  margin: auto;
+}
+
+.acadmic-writing-sob-box-content{
+  width: 100%;
+  /* border-bottom: 2px solid gray; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 0;
+  flex-wrap: wrap;
+}
+.acadmic-writing-sob-box-content-box{
+  width: 250px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.acadmic-writing-sob-box-content-box span{
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.bottom-border-add{
+  border-bottom:3px solid red ;
+}
+.acadmic-writing-sob-box-content-box span:hover{
+  border-bottom: 3px solid red;
+}
+#Deadline{
+  padding-top:20px ;
+  padding-bottom: 50px;
+}
+.Deadline{
+width: 100%;
+/* border: 2px solid orange; */
+
+}
+.Deadline table{
+  /* border: 2px solid black; */
+  width: 100%;
+padding: 0 20px;
+}
+.Deadline table th{
+  /* border: 2px solid black; */
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  background-color: #338F58;
+}
+.left-border-circle{
+  border-top-left-radius:30px ;
+}
+.right-border-circle{
+  border-top-right-radius:30px ;
+}
+.Deadline table td{
+  /* width: 100%; */
+  /* border: 2px solid purple; */
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+.bg-color-gray{
+  background-color: #F3F3F3;
+}
+#silver-pricing{
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.silver-pricing{
+  width: 100%;
+  /* border: 2px solid orchid; */
+}
+.silver-sub-box{
+  width:90%;
+  /* border: 2px solid rgb(77, 26, 43); */
+  margin: auto;
+}
+.silver-sub-box-content{
+  width: 100%;
+  /* border: 2px solid black; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px 0;
+}
+.silver-sub-box-content-box{
+  width: 340px;
+  /* border: 2px solid green; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 19px;
+  background-color: white;
+  box-shadow: 4px 4px 10px gray;
+  border-radius: 20px;
+}
+.silver-sub-box-content-box-heading{
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Raleway';
+}
+.silver-sub-box-content-box img{
+  margin-top: -50px;
+}
+.silver-sub-box-content-and-dotted-box{
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.silver-sub-box-content-and-dotted-box-adjust-margin{
+  margin-top: -80px !important;
+}
+.silver-sub-box-content-and-dotted-box img{
+margin-top: 1px;
+margin-right: 10px;
+}
+.silver-sub-box-content-and-dotted-box p{
+  font-size: 20px;
+}
+#silver-sub-box-content-and-dotted-box-add-margin{
+  margin-top: 20px;
+}
+.silver-sub-box-content-box a button{
+  width: 300px;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 900;
+  margin-bottom: 20px;
+cursor: pointer;
+transition: all .4s ease-in-out;
+}
+.silver-sub-box-content-box a button:hover{
+  transform: scale(1.05);
+}
+
+#silver-sub-box-content-box-adjust-width{
+  width: 400px;
+}
+/* pricing section  */
+
+
+/* privacy and policy  */
+#privacy-and-policy-main{
+background-color: #00732F!important;
+padding-top:70px;
+padding-bottom: 70px;
+}
+.privacy-policy-para-main-box{
+  width: 100%;
+  /* border: 2px solid green; */
+}
+.privacy-policy-para-sub-box{
+width: 90%;
+/* border: 2px solid olive; */
+margin: auto;
+margin-top: 30px;
+}
+.privacy-policy-para-sub-box-para-content{
+  width: 93%;
+  /* border: 2px solid purple; */
+  margin: auto;
+}
+.privacy-policy-para-sub-box-para-content-heading{
+  width: 100%;
+  /* border: 2px solid black; */
+}
+.privacy-policy-para-sub-box-para-content-heading-style{
+  font-size: 40px;
+  font-family: 'Raleway';
+}
+.privacy-policy-para-sub-box-para-content-paragraph{
+  width: 100%;
+  /* border: 2px solid brown; */
+  margin-top: 10px;
+}
+.privacy-policy-para-sub-box-para-content-paragraph p{
+  margin-top: 20px;
+  font-size: 20px;
+}
+section#privacy-policy-para {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* privacy and policy  */
+
+#nav-btn-adjust{
+  width: 130px;
+  background-color:transparent;
+  color:black;
+  border: none;
+  margin-left: 20px;
+  border: 2px solid green;
+  /* box-shadow: 4px 4px 0px #b9b9b9, inset 4px 4px 20px #00ff7e; */
+}
+#nav-btn-adjust i{
+  font-size: 25px;
+}
+#nav-btn-adjust:hover{
+transform: scale(1.1);
+background-color:green;
+color: white;
+}
+
+
+section#order-main {
+  background: black;
+}
+div#footer-contact-email-box-display-flex img {
+  width: 65%;
+}
+#counter-image-left-position{
+  position: absolute;
+  left: -34px;
+}
+
+
+
+  /* carousel-sec */
+  .review-section .second-review-col img {
+    border-radius: 0 0 0 50px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+  
+  .review-section {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-start !important;
+    gap: 50px;
+  }
+  
+  .carousel-post {
+    background: #fff !important;
+    position: relative !important;
+  }
+  
+  .carousel {
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: 50px !important;
+    overflow: unset !important;
+    overflow-x: clip !important;
+  }
+  
+  .carousel-controls {
+    justify-content: flex-start !important;
+  }
+  
+  #prevBtn,
+  #nextBtn {
+    display: none !important;
+  }
+  
+  .carousel-controls {
+    margin-top: 50px;
+  }
+  
+  .dot {
+    background: #f1f9f3 !important;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .dot.active-dot {
+    background: #0080004d !important;
+    border: 1px solid;
+  }
+  
+  .review-section h3 {
+    font-size: 30px;
+    font-family: 'Montserrat' !important;
+    margin-bottom: 15px;
+    font-weight: bolder;
+  }
+  
+  .review-section p {
+    font-size: 18px !important;
+    line-height: 25px !important;
+  }
+  
+  .carousel-post:before,
+  .carousel-post:after {
+    content: '';
+    position: absolute !important;
+    left: 0 !important;
+    background: url('Image/left-quote.png');
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    top: -80px;
+  }
+  
+  .carousel-post:after {
+    top: unset !important;
+    left: unset !important;
+    bottom: -80px !important;
+    right: 0;
+    transform: rotate(180deg);
+  }
+  
+  .rotate-heading {
+    display: inline-block !important;
+    transform: rotate(-90deg);
+    /* display: none !important; */
+  }
+  
+  section#reviews section.inner-section {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+    /* min-width: 1320px; */
+  }
+  
+  .rotate-heading h2 {
+    font-size: 40px;
+    font-family: 'Montserrat' !important;
+    position: relative;
+  }
+  
+  .rotate-heading h2:after {
+    content: '';
+    position: absolute !important;
+    background: url('JPEGs/new-line.PNG');
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 5px;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -15px;
+  }
+  /* carousel */
+  .carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-post {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: lightgray;
+  }
+  
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  #prevBtn,
+  #nextBtn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .active-dot {
+    background-color: black;
+  }
+  
+  /* carousel */
+  .Satisfaction-main-box {
+    width: 58% !important;
+    border: none;
+    background-color: #fc5757;
+    box-shadow: 4px 4px 20px rgb(255, 130, 130);
+    position: absolute;
+    bottom: -623px !important;
+    right: 29px;
+    padding: 40px 50px;
+    /* padding-top: 24px; */
+    padding-left: 70px !important;
+}
+  #Your-Essay-Right-Now-sub-box-bg-add{
+    background-image: url("Image/right.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+
+  #Your-Essay-Right-Now-sub-box-bg-add-left{
+    background-image: url("Image/left.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+  #Your-Essay-Right-Now-sub-box-bg-add-first-center{
+    background-image: url("Image/Rectangle\ 20.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+  #Your-Essay-Right-Now-sub-box-bg-add-second-center{
+    background-image: url("Image/Rectangle\ 20.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+  #service-footer-box ul li p {
+    text-align: left;
+    color: #AAAAAA !important;
+}
+img#last-image-adjust {
+  width: 43px;
+}
+img#Satisfaction-first-icon-box-adjust {
+  margin-top: -182px;
+  margin-left: -41px;
+}
+img#Satisfaction-second-icon-box-adjust {
+  margin-top: -204px;
+  margin-left: -41px;
+}
+img#Satisfaction-third-icon-box-adjust {
+  margin-top: -226px;
+  margin-left: -41px;
+
+}
+.container{
+  width: 100%;
+  padding: 100px 50px; 
+}
+
+.inner-section{
+  width: 100%;
+}
+@media (max-width:1024px) {
+  section#background-header .inner-section .background-header-content .background-header-content-sub-box h1 {
+      color: white;
+      font-size: 30px;
+      font-family: 'Poppins' !important;
+  }
+
+  section#background-header .inner-section .background-header-content .background-header-content-sub-box {
+      width: 60%;
+  }
+
+  section #pricing-calculator {
+      width: 100%;
+      margin-top: 100px;
+      background-color: white;
+      border-radius: 30px;
+      padding: 20px 40px;
+      box-shadow: 4px 4px 10px gray;
+      position: absolute;
+      bottom: -486px;
+  }
+
+  section #pricing-calculator .inner-section .raw .col select {
+      width: 266px;
+      padding: 10px;
+  }
+
+  section #pricing-calculator .inner-section .side-bar {
+      width: 27%;
+      padding: 30px 20px;
+      background-color: rgb(230, 230, 230);
+      border-radius: 10px;
+      position: absolute;
+      right: 15px;
+      top: 80px;
+  }
+
+  section#background-header {
+      width: 100%;
+      background-image: url("Image/Banner-Image.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 447px;
+      padding-top: 150px !important;
+  }
+
+  .Who-We-Are-Actually-box {
+      width: 100%;
+      /* border: 2px solid purple; */
+      display: flex;
+      position: relative;
+      flex-direction: column;
+  }
+
+  .Who-We-Are-Actually-left-box {
+      width: 100%;
+      /* border: 2px solid black; */
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .Who-We-Are-Actually-right-box {
+      width: 100%;
+      /* border: 2px solid black; */
+      padding-left: 30px;
+  }
+
+  .Satisfaction-main-box {
+      width: 100% !important;
+      background-color: #fc5757;
+      box-shadow: 4px 4px 20px rgb(255, 130, 130);
+      position: static !important;
+      bottom: 0px;
+      /* display: none; */
+      right: 0px;
+      padding: 40px 20px;
+      padding-left: 20px !important;
+  }
+  .Satisfaction-icon-box img {
+      filter: invert(100%);
+      width: 100%;
+      margin-top: -121px !important;
+  }
+  div#Satisfaction-icon-box-adjust img {
+      margin-top: -144px !important;
+  }
+  .Who-We-Are-Actually-right-box-content {
+      width: 100%;
+      /* border: 2px solid orangered; */
+  }
+
+  .Who-We-Are-Actually-right-box-main-para {
+      width: 100%;
+      /* border: 2px solid purple; */
+      padding-top: 10px;
+      padding-right: 5px;
+  }
+
+  .Your-Essay-Right-Now-heading-sub-box {
+      width: 90%;
+      /* border: 2px solid white; */
+      margin: auto;
+  }
+
+  #Who-We-Are-Actually {
+      padding-top: 150px;
+      padding-bottom: 50px !important;
+  }
+
+  .Complete-Solution-For-Your-Essay-Writing-heading-sub-box {
+      width: 100%;
+      /* border: 2px solid purple; */
+      margin: auto;
+  }
+
+  #Complete-Solution-For-Your-Essay-Writing-sub-box-margin-top {
+      margin-top: 20px;
+  }
+
+  .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-sub-box {
+      width: 93%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-left-box {
+      width: 100%;
+  }
+
+  #Excellency-With-Consistency-Best-Essay-Writers-In-UAE-right-box-heading-style {
+      margin-left: 0px;
+      font-size: 40px;
+      margin-top: 20px;
+  }
+
+  p#Excellency-With-Consistency-Best-Essay-Writers-In-UAE-right-box-para-style {
+      margin-left: 0px;
+      margin-top: 20px;
+  }
+
+  .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-box {
+      width: 100%;
+      margin: auto;
+  }
+
+  .First-Class-Essay-Writing-Help-In-Dubai-box {
+      width: 93%;
+      margin: auto;
+      display: flex;
+      margin-top: 20px;
+      flex-direction: column;
+  }
+
+  .First-Class-Essay-Writing-Help-In-Dubai-left-box {
+      width: 100%;
+  }
+
+  .First-Class-Essay-Writing-Help-In-Dubai-right-box {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-image-box {
+      width: 100%;
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+
+  .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-box-heading {
+      width: 100%;
+      margin: auto;
+  }
+
+  .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-sub-heading-box {
+      width: 100%;
+      /* border: 2px solid orangered; */
+      margin: auto;
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box {
+      width: 93%;
+      /* border: 2px solid orangered; */
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      flex-direction: column;
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-left {
+      width: 100%;
+      /* border: 2px solid blue; */
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-right {
+      width: 100%;
+      /* border: 2px solid rgb(0, 0, 83); */
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-left-heading-style {
+      font-size: 40px;
+      font-family: 'Raleway' !important;
+      margin-bottom: 20px;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-left-box img {
+      position: static;
+      left: 0;
+      width: 52%;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-left-box img {
+      position: static;
+      left: 0;
+      width: 100%;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-sub-box {
+      width: 93%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-left-box {
+      width: 100%;
+      /* border: 2px solid brown; */
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-right-box {
+      width: 100%;
+      /* border: 2px solid rgb(104, 0, 0); */
+  }
+
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box {
+      width: 100%;
+      margin: auto;
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-para {
+      width: 100%;
+      margin: auto;
+      margin-top: 20px;
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-heading {
+      width: 87%;
+      margin: auto;
+  }
+  .footer-sub-box {
+      width: 100%;
+      /* border: 2px solid pink; */
+      margin: auto;
+  }
+  .footer-content-box {
+      width: 100%;
+      /* border: 2px solid purple; */
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .footer-contact-sub-real-box {
+      width: 93%;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .Who-We-Are-Actually-box {
+      width: 100%;
+      border: none;
+      display: flex;
+      position: relative;
+  }
+  .acadmic-writing-sob-box-content {
+      width: 100%;
+      border-bottom: 2px solid gray;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 15px 0;
+      flex-wrap: wrap;
+      gap: 20px 0;
+  }
+  .privacy-policy-para-sub-box {
+      width: 100%;
+      border: 2px solid olive;
+      margin: auto;
+      margin-top: 30px;
+  }
+
+  section#reviews section.inner-section {
+      display: flex;
+      justify-content: space-between !important;
+      align-items: center;
+      width: 100%;
+      min-width: 0px;
+  }
+  .review-section .second-review-col img {
+      border-radius: 0 0 0 50px;
+      width: 200px;
+      height: 200px;
+      object-fit: cover !important;
+      object-position: center !important;
+      margin-top: 49px;
+  }
+}
+
+
+@media (max-width:768px) {
+  .container {
+      width: 100%;
+      /* border: 2px solid black; */
+      padding: 100px 27px;
+  }
+
+  section #pricing-calculator .inner-section .raw .col {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 23px;
+  }
+
+  section #pricing-calculator .inner-section .side-bar {
+      width: 36%;
+      padding: 80px 1px;
+      background-color: rgb(230, 230, 230);
+      border-radius: 10px;
+      position: absolute;
+      right: 15px;
+      top: 95px;
+  }
+
+  section#background-header .inner-section .background-header-content .background-header-content-sub-box h1 {
+      color: white;
+      font-size: 24px;
+      font-family: 'Poppins' !important;
+  }
+
+  section#background-header .inner-section .background-header-content .background-header-content-sub-box p {
+      color: white;
+      font-size: 15px;
+      font-family: 'Poppins' !important;
+      margin-top: 20px;
+  }
+
+  section #pricing-calculator {
+      width: 100%;
+      margin-top: 100px;
+      background-color: white;
+      border-radius: 30px;
+      padding: 20px 40px;
+      box-shadow: 4px 4px 10px gray;
+      position: absolute;
+      bottom: -532px;
+  }
+
+  .Who-We-Are-Actually-right-box-content-heading-style {
+      font-size: 30px;
+      font-family: 'poppins' !important;
+      font-weight: 800;
+  }
+
+  .Who-We-Are-Actually-right-box-main-para p {
+      font-family: 'poppins' !important;
+      margin-bottom: 20px;
+      font-size: 16px;
+  }
+
+  .Satisfaction-para-box p {
+      font-size: 16px;
+      color: white;
+  }
+
+  .Satisfaction-main-box {
+      width: 100%;
+      /* border: 2px solid rgb(226, 21, 21); */
+      background-color: #fc5757;
+      box-shadow: 4px 4px 20px rgb(255, 130, 130);
+      position: static;
+      bottom: 0px;
+      right: 0px;
+      padding: 40px 20px;
+      padding-left: 20px !important;
+  }
+  .Satisfaction-icon-box img {
+      filter: invert(100%);
+      width: 100%;
+      margin-top: -107px;
+  }
+  .Your-Essay-Right-Now-heading-sub-box {
+      width: 100%;
+      margin: auto;
+  }
+
+  .Your-Essay-Right-Now-heading-box {
+      width: 100%;
+      margin: auto;
+  }
+
+  .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-box {
+      width: 100%;
+      margin: auto;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-sub-box {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-main-box {
+      width: 100%;
+      margin: auto;
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-main-box {
+      width: 100%;
+      /* border: 2px solid brown; */
+      margin: auto;
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-heading {
+      width: 101%;
+      margin: auto;
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-heading-style {
+      font-size: 30px;
+      font-family: 'Raleway' !important;
+      text-align: center;
+      font-weight: bolder;
+  }
+  .Several-Queries-Going-On-Your-Mind-We-Have-All-The-Answers-sub-box-para p {
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Montserrat' !important;
+  }
+  .about-main-heading-box {
+      width: 100%;
+      margin: auto;
+  }
+  .privacy-policy-para-sub-box-para-content {
+      width: 100%;
+      margin: auto;
+  }
+  section#background-header .inner-section .background-header-content .background-header-content-sub-box {
+      width: 70%;
+      padding-right: 0px !important;
+  }
+  #Complete-Solution-For-Your-Essay-Writing {
+      background-color: #f7f7f7;
+      background-image: none !important;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 60px;
+      padding-bottom: 50px;
+  }
+  .review-section {
+      display: block !important;
+      justify-content: space-between;
+      align-items: flex-start !important;
+      gap: 50px;
+  }
+  .Satisfaction-icon-box img {
+      filter: invert(100%);
+      width: 100%;
+      margin-top: -163px !important;
+  }
+  div#Satisfaction-icon-box-adjust img {
+      margin-top: -180px !important;
+  }
+  #counter-image-left-position {
+      position: absolute;
+      left: -34px;
+      display: none;
+  }
+  .counter-box img {
+      position: absolute;
+      /* left: 0; */
+      top: 75px;
+      width: 190px !important;
+      display: none;
+  }
+  #service-footer-box {
+      width: 400px;
+      padding-left: 0px;
+      padding-top: 5px;
+  }
+  .review-section .second-review-col img {
+      border-radius: 0 0 0 50px;
+      width: 200px;
+      height: 200px;
+      object-fit: cover !important;
+      object-position: center !important;
+      margin-top: 49px;
+      border-radius: 50%;
+  }
+  #Complete-Solution-For-Your-Essay-Writing-sub-box-margin-top {
+      margin-top: 20px;
+      width: 100%;
+  }
+}
+
+@media (max-width:425px) {
+  section #pricing-calculator .inner-section input {
+      width: 100%;
+      padding: 15px;
+      margin-top: 150px;
+      background-color: black;
+      border: none;
+      color: white;
+      font-size: 20px;
+      font-family: Montserrat;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: all .4s ease-in-out;
+  }
+
+  section #pricing-calculator .inner-section .side-bar {
+      width: 100%;
+      padding: 30px 1px;
+      background-color: rgb(230, 230, 230);
+      border-radius: 10px;
+      position: absolute;
+      right: 0px;
+      top: 385px;
+  }
+
+  section #pricing-calculator .inner-section input {
+      width: 100%;
+      padding: 15px;
+      margin-top: 190px;
+      background-color: black;
+      border: none;
+      color: white;
+      font-size: 20px;
+      font-family: Montserrat;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: all .4s ease-in-out;
+  }
+
+  section#background-header .inner-section .background-header-content .background-header-content-sub-box {
+      width: 100%;
+  }
+
+  section #pricing-calculator .inner-section .raw {
+      width: 100%;
+      /* border: 2px solid black; */
+      margin-top: 30px;
+  }
+
+  section #pricing-calculator .inner-section .raw {
+      width: 100%;
+      /* border: 2px solid black; */
+      margin-top: 30px;
+  }
+
+  section #pricing-calculator h2 {
+      font-family: 'Poppins' !important;
+      font-weight: bold;
+      font-size: 30px;
+  }
+
+  section#background-header .inner-section .background-header-content .background-header-content-sub-box h1 {
+      color: white;
+      font-size: 22px;
+      font-family: 'Poppins' !important;
+  }
+
+  section#background-header .inner-section .background-header-content .background-header-content-sub-box p {
+      color: white;
+      font-size: 16px;
+      font-family: 'Poppins' !important;
+      margin-top: 20px;
+  }
+
+  .container {
+      width: 100%;
+      /* border: 2px solid black; */
+      padding: 100px 8px;
+  }
+
+  section #pricing-calculator {
+      width: 100%;
+      margin-top: 100px;
+      background-color: white;
+      border-radius: 30px;
+      padding: 20px 40px;
+      box-shadow: 4px 4px 10px gray;
+      position: absolute;
+      bottom: -670px;
+  }
+
+  #Who-We-Are-Actually {
+      padding-top: 262px;
+  }
+
+  .Who-We-Are-Actually-right-box {
+      width: 100%;
+      /* border: 2px solid black; */
+      padding-left: 0px;
+  }
+
+  .Satisfaction-icon-box img {
+      filter: invert(100%);
+      width: 100%;
+      margin-top: -152px;
+  }
+
+  .Who-We-Are-Actually-right-box-main-para {
+      width: 100%;
+      /* border: 2px solid purple; */
+      padding-top: 10px;
+      padding-right: 5px;
+      padding-left: 5px;
+  }
+
+  .Satisfaction-para-box-heading {
+      font-size: 24px;
+      font-family: 'poppins';
+      color: white;
+  }
+
+  .Your-Essay-Right-Now-heading-style {
+      font-size: 30px;
+      font-family: poppins;
+      font-weight: 800;
+      text-align: center;
+      color: white;
+  }
+
+  .Your-Essay-Right-Now-heading-sub-box p {
+      font-size: 16px;
+      font-family: 'poppins';
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+  }
+  .Satisfaction-icon-box img {
+      filter: invert(100%);
+      width: 100%;
+      margin-top: -152px;
+      display: none;
+  }
+  .Your-Essay-Right-Now-btn {
+      width: 100%;
+      /* border: 2px solid black; */
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+
+  .Your-Essay-Right-Now-btn a button {
+      width: 230px;
+      padding: 15px;
+      margin-left: 0px;
+      font-size: 20px;
+      border-radius: 10px;
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+      cursor: pointer;
+      transition: all .4s ease-in-out;
+      font-weight: bolder;
+  }
+
+  .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-left-box-heading-style {
+      font-size: 30px;
+      font-family: 'poppins';
+      color: black;
+  }
+
+  #Excellency-With-Consistency-Best-Essay-Writers-In-UAE-right-box-heading-style {
+      margin-left: 0px;
+      font-size: 30px;
+      margin-top: 20px;
+  }
+
+  .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-left-box p {
+      font-size: 16px;
+      font-family: 'poppins';
+      margin-top: 20px;
+  }
+
+  .First-Class-Essay-Writing-Help-In-Dubai-right-box p {
+      font-size: 16px;
+  }
+
+  #Excellency-With-Consistency-Best-Essay-Writers-In-UAE {
+      padding-top: 0px;
+  }
+
+  #Excellency-With-Consistency-Best-Essay-Writers-In-UAE {
+      padding-top: 0px;
+      padding-bottom: 50px;
+  }
+
+  .Complete-Solution-For-Your-Essay-Writing-sub-box {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px px;
+  }
+
+  .Excellency-With-Consistency-Best-Essay-Writers-In-UAE-sub-box {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .First-Class-Essay-Writing-Help-In-Dubai-box {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      margin-top: 20px;
+      flex-direction: column;
+  }
+
+  #horizontal-line-main-box {
+      padding: 20px 0px;
+  }
+
+  .complete-Solution-For-Your-Essay-Writing-heading-style {
+      font-size: 30px;
+      font-family: 'poppins';
+      font-weight: bolder;
+      text-align: center;
+  }
+
+  .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-box {
+      width: 100%;
+      margin: auto;
+  }
+
+  .Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place-sub-box-heading-style {
+      font-size: 30px;
+      text-align: center;
+  }
+
+  #Best-Essay-Assistance-And-Low-Price-Essay-Writing-Service-At-One-Place {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: none;
+  }
+
+  section#Excellency-With-Consistency-Best-Essay-Writers-In-UAE {
+      padding-top: 50px;
+      padding-bottom: 0px;
+      background-image: url("Image/Three-color-section-flag.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      /* background-size: cover; */
+  }
+
+  .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-main-heading-box {
+      width: 100%;
+      margin: auto;
+  }
+
+  .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-heading-style {
+      font-size: 30px;
+      text-align: center;
+      color: white;
+  }
+
+  .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-sub-para-box p {
+      font-size: 16px;
+      color: white;
+      text-align: center;
+  }
+
+  .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-sub-para-box {
+      width: 100%;
+      margin: auto;
+      margin-top: 25px;
+  }
+
+  .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-btn {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+
+  .Opt-For-The-Best-And-Cheap-Writing-Help-In-Abu-Dhabi-btn a button {
+      width: 230px;
+      padding: 15px;
+      margin-left: 0px;
+      font-size: 20px;
+      border-radius: 10px;
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+      cursor: pointer;
+      transition: all .4s ease-in-out;
+      font-weight: bolder;
+  }
+
+  .Get-Free-NewsLetter-sub-box-heading-style {
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Raleway' !important;
+      font-weight: bolder;
+  }
+
+  .Get-Free-NewsLetter-sub-box-heading {
+      width: 100%;
+      /* border: 2px solid purple; */
+      margin: auto;
+  }
+
+  .serach-bar a button {
+      width: 200px;
+      padding: 12px;
+      font-size: 20px;
+      border: none;
+      background-color: black;
+      color: white;
+      position: absolute;
+      right: 42px;
+      bottom: -74px;
+      transition: all .4s ease-in-out;
+  }
+
+  .serach-bar input {
+      width: 95%;
+      padding: 12px;
+      font-size: 20px;
+      border: none;
+      outline: none;
+      box-shadow: 4px 4px 10px gray;
+      margin-bottom: 74px;
+  }
+
+  .serach-bar a button {
+      width: 200px;
+      padding: 12px;
+      font-size: 20px;
+      border: none;
+      background-color: black;
+      color: white;
+      position: absolute;
+      right: 42px;
+      bottom: -3px;
+      transition: all .4s ease-in-out;
+  }
+
+  #horizontal-line-main-box {
+      padding: 0px 0px;
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-sub-box {
+      width: 100%;
+      /* border: 2px solid pink; */
+      margin: auto;
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box {
+      width: 100%;
+      /* border: 2px solid orangered; */
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      flex-direction: column;
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-left-heading-style {
+      font-size: 30px;
+      font-family: 'Raleway' !important;
+      margin-bottom: 20px;
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-right p {
+      font-family: Montserrat !important;
+      font-size: 16px;
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn {
+      width: 90%;
+      /* border: 2px solid black; */
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn a button {
+      width: 230px;
+      padding: 15px;
+      margin-left: 0px;
+      font-size: 20px;
+      border-radius: 10px;
+      background-color: transparent;
+      color: #00732F;
+      border: 2px solid #00732F;
+      cursor: pointer;
+      transition: all .4s ease-in-out;
+      font-weight: bolder;
+      font-family: 'Montserrat' !important;
+  }
+  .Who-We-Are-Actually-left-box {
+      width: 100%;
+      /* border: 2px solid black; */
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+  }
+  .Who-We-Are-Actually-left-box img {
+      width: 87%;
+      margin-left: 0px;
+  }
+  .Who-We-Are-Actually-right-box-content-heading-style {
+      font-size: 30px;
+      font-family: 'poppins' !important;
+      font-weight: 800;
+      margin-bottom: 0px;
+      margin-top: 20px;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-right-box-heading {
+      font-size: 30px;
+      font-family: 'Raleway' !important;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-right-box p {
+      font-size: 16px;
+      font-family: 'Montserrat' !important;
+      margin-top: 30px;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn {
+      width: 100%;
+      /* border: 2px solid orange; */
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  #Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn-edit {
+      background-color: black;
+      width: 230px;
+      color: white;
+      border: 2px solid black;
+      margin-left: 0px;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn a button {
+      width: 230px;
+      padding: 15px;
+      margin-left: 0px;
+      font-size: 20px;
+      border-radius: 10px;
+      background-color: transparent;
+      color: #2D2D2D;
+      border: 2px solid #00732F;
+      cursor: pointer;
+      transition: all .4s ease-in-out;
+      font-weight: bolder;
+      font-family: 'Montserrat' !important;
+  }
+  #service-footer-box {
+      width: 100%;
+  }
+  #service-footer-box ul a li img {
+      width: 6%;
+      margin-right: 10px;
+  }
+  .footer-first-box {
+      width: 100% !important;
+      /* border: 2px solid orange; */
+  }
+  .footer-contact-sub-box {
+      width: 100%;
+      /* border: 2px solid purple; */
+      margin: auto;
+  }
+  .footer-contact-sub-real-box {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .footer-contact-email-box {
+      width: 100% !important;
+      /* border: 2px solid rgb(148, 148, 148); */
+      display: flex;
+      align-items: center;
+  }
+  .footer-contact-email-box a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+  }
+  .footer-first-box p {
+      color: white;
+      font-family: 'Montserrat' !important;
+  }
+  .footer-contact-email-box a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-family: 'Montserrat' !important;
+  }
+  #service-footer-box {
+      width: 100%;
+      margin-top: 20px;
+  }
+  .Deadline {
+      width: 100%;
+      overflow: scroll;
+  }
+  .Deadline table {
+      width: 100%;
+      padding: 0 0px;
+  }
+  #silver-sub-box-content-box-adjust-width {
+      width: 300px;
+  }
+  .silver-sub-box-content-and-dotted-box p {
+      font-size: 16px ;
+  }
+
+  .silver-sub-box-content-box a button {
+      width: 250px;
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #000000;
+      color: white;
+      font-size: 20px;
+      border-radius: 5px;
+      border: none;
+      font-weight: 900;
+      margin-bottom: 20px;
+      cursor: pointer;
+      transition: all .4s ease-in-out;
+  }
+  .silver-sub-box-content-box {
+      width: 300px;
+      /* border: 2px solid green; */
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+      flex-direction: column;
+      padding: 10px 0;
+      padding-left: 20px;
+      background-color: white;
+      box-shadow: 4px 4px 10px gray;
+      border-radius: 20px;
+  }
+  .silver-sub-box {
+      width: 100%;
+      /* border: 2px solid rgb(77, 26, 43); */
+      margin: auto;
+  }
+  #silver-sub-box-content-box-adjust-width{
+      width: 300px;
+    }
+    .adjust-price-image-size {
+      width: 404px;
+      margin-top: -41px !important;
+    }
+    .privacy-policy-para-sub-box-para-content-heading-style {
+      font-size: 30px;
+      font-family: 'Raleway' !important;
+  }
+  .privacy-policy-para-sub-box-para-content-paragraph p {
+      margin-top: 20px;
+      font-size: 16px;
+  }
+  #Who-We-Are-Actually {
+      padding-top: 259px !important;
+      padding-bottom: 76px;
+  }
+  #nav-btn-adjust {
+      width: 300px;
+      background-color: green;
+      color: white;
+      border: none;
+      margin-left: 20px;
+      margin-top: 10px;
+      animation: whatsapp 1s infinite ease-in-out alternate;
+  }
+  .Satisfaction-main-box {
+      width: 58%;
+      border: none;
+      background-color: #fc5757;
+      box-shadow: 4px 4px 20px rgb(255, 130, 130);
+      position: absolute;
+      bottom: -302px;
+      right: 29px;
+      padding-left: 0px !important;
+      padding: 40px 10px !important;
+      /* padding-top: 24px; */
+  }
+  .Satisfaction-icon-box {
+      width: 0%;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .rotate-heading h2 {
+      font-size: 40px;
+      font-family: 'Montserrat' !important;
+      position: relative;
+      display: none;
+  }
+  section#reviews section.inner-section {
+      display: flex;
+      justify-content: space-between !important;
+      align-items: center;
+      width: 100%;
+      min-width: 0px;
+      padding-left: 20px;
+  }
+  .review-headig-main-box{
+      width: 100%;
+      /* border: 2px solid black; */
+      margin-bottom: 20px;
+      display: block;
+      
+       }
+  .review-headig-main-box-heading-style{
+      text-align: center;
+      font-size: 40px;
+      font-weight: bolder;
+      display: block;
+     }
+     section#background-header {
+      width: 100%;
+      background-image: none;
+      background-position: center;
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 447px;
+      padding-top: 50px;
+  }
+}
+
+
+@media (max-width:375px) {
+
+  section #pricing-calculator {
+      width: 100%;
+      margin-top: 100px;
+      background-color: white;
+      border-radius: 30px;
+      padding: 20px 40px;
+      box-shadow: 4px 4px 10px gray;
+      position: absolute;
+      bottom: -700px;
+  }
+
+  section #pricing-calculator h2 {
+      font-family: 'Poppins' !important;
+      font-weight: bold;
+      font-size: 27px;
+  }
+
+  section #pricing-calculator .inner-section .side-bar {
+      width: 100%;
+      padding: 30px 1px;
+      background-color: rgb(230, 230, 230);
+      border-radius: 10px;
+      position: absolute;
+      right: 0px;
+      top: 380px;
+  }
+
+  section #pricing-calculator {
+      width: 100%;
+      margin-top: 100px;
+      background-color: white;
+      border-radius: 30px;
+      padding: 20px 15px;
+      box-shadow: 4px 4px 10px gray;
+      position: absolute;
+      bottom: -659px;
+  }
+
+  .Who-We-Are-Actually-right-box-content-heading-style {
+      font-size: 29px;
+      font-family: 'poppins' !important;
+      font-weight: 800;
+  }
+
+  .Satisfaction-main-box {
+      width: 100%;
+      /* border: 2px solid rgb(226, 21, 21); */
+      background-color: #fc5757;
+      box-shadow: 4px 4px 20px rgb(255, 130, 130);
+      position: static;
+      bottom: 0px;
+      right: 0px;
+      padding: 40px 5px;
+      padding-left: 5px !important;
+  }
+
+  .Satisfaction-icon-box img {
+      filter: invert(100%);
+      width: 100%;
+      margin-top: -175px;
+  }
+
+  .Get-Free-NewsLetter-main-box {
+      width: 100%;
+      border: 2px solid black;
+      margin: auto;
+  }
+
+  .Get-Free-NewsLetter-sub-box {
+      width: 100%;
+      /* border: 2px solid black; */
+      margin: auto;
+  }
+
+  .serach-bar a button {
+      width: 200px;
+      padding: 12px;
+      font-size: 20px;
+      border: none;
+      background-color: black;
+      color: white;
+      position: absolute;
+      right: 42px;
+      bottom: -3px;
+      transition: all .4s ease-in-out;
+  }
+
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-content-box-right p {
+      font-family: Montserrat !important;
+      font-size: 16px;
+      margin-top: 10px;
+  }
+}
+
+
+@media (max-width:320px) {
+  .Who-We-Are-Actually-right-box-content-heading-style {
+      font-size: 24px;
+      font-family: 'poppins' !important;
+      font-weight: 800;
+  }
+
+  .Who-We-Are-Actually-right-box-main-para {
+      width: 100%;
+      /* border: 2px solid purple; */
+      padding-top: 10px;
+      padding-right: 0px;
+      padding-left: 0px;
+  }
+
+  .Satisfaction-para-box-heading {
+      font-size: 20px;
+      font-family: 'poppins';
+      color: white;
+      font-weight: bolder;
+  }
+
+  .Satisfaction-main-box {
+      width: 100%;
+      /* border: 2px solid rgb(226, 21, 21); */
+      background-color: #fc5757;
+      box-shadow: 4px 4px 20px rgb(255, 130, 130);
+      position: static;
+      bottom: 0px;
+      right: 0px;
+      padding: 40px 5px;
+      padding-left: 5px !important;
+  }
+
+  .Satisfaction-icon-box img {
+      filter: invert(100%);
+      width: 100%;
+      margin-top: -226px;
+  }
+  .serach-bar a button {
+      width: 200px;
+      padding: 12px;
+      font-size: 20px;
+      border: none;
+      background-color: black;
+      color: white;
+      position: absolute;
+      right: 30px;
+      bottom: -3px;
+      transition: all .4s ease-in-out;
+  }
+  .Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE-btn {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn {
+      width: 100%;
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .footer-contact-email-box a {
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      font-family: 'Montserrat' !important;
+  }
+  .footer-contact-email-box i {
+      font-size: 25px;
+      color: white;
+      margin-right: 9px !important;
+  }
+
+  .adjust-price-image-size {
+      width: 319px;
+      margin-top: -29px !important;
+  }
+  .silver-sub-box-content-box {
+      width: 267px;
+      /* border: 2px solid green; */
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+      flex-direction: column;
+      padding: 10px 0;
+      background-color: white;
+      box-shadow: 4px 4px 10px gray;
+      border-radius: 20px;
+  }
+  #silver-sub-box-content-box-adjust-width {
+      width: 267px !important;
+  }
+  .about-main-heading-style {
+      font-size: 30px;
+      font-weight: 900;
+      font-family: 'Raleway' !important;
+      text-align: center;
+      color: white;
+  }
+  .silver-sub-box-content-and-dotted-box {
+      width: 100%;
+      display: flex;
+      padding-left: 10px;
+      align-items: center;
+  }
+  div#silver-sub-box-content-and-dotted-box-add-margin p {
+      font-size: 16px !important;
+  }
+  div#silver-sub-box-content-and-dotted-box-adjust-margin p {
+      font-size: 16px !important;
+  }
+}
+
+@media (max-width:360px) {
+  .adjust-price-image-size {
+      width: 338px;
+      margin-top: -41px !important;
+  }
+  .silver-sub-box-content-and-dotted-box p {
+      font-size: 20px;
+  }
+}
+
+@media (max-width:430px) {
+  .Deadline {
+      width: 100%;
+      /* border: 2px solid orange; */
+      overflow: scroll !important;
+  }
+  img.adjust-price-image-size {
+      width: 305px;
+  }
+  .silver-sub-box-content-box img {
+      margin-top: -1px;
+  }
+  section#background-header .inner-section .background-header-content .background-header-content-sub-box {
+      width: 100%;
+      padding-right: 0px !important;
+  }
+  section #pricing-calculator {
+      width: 100%;
+      margin-top: 100px;
+      background-color: white;
+      border-radius: 30px;
+      padding: 20px 40px;
+      box-shadow: 4px 4px 10px gray;
+      position: absolute;
+      bottom: -635px;
+  }
+  section #pricing-calculator .inner-section input {
+      width: 100%;
+      padding: 15px;
+      margin-top: 181px;
+      background-color: black;
+      border: none;
+      color: white;
+      font-size: 20px;
+      font-family: 'Montserrat' !important;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: all .4s ease-in-out;
+  }
+  section #pricing-calculator .inner-section .side-bar {
+      width: 100%;
+      padding: 35px 0px;
+      background-color: rgb(230, 230, 230);
+      border-radius: 10px;
+      position: absolute;
+      right: 4px;
+      top: 348px;
+  }
+  section #pricing-calculator .inner-section .raw {
+      width: 100%;
+      margin-top: 30px;
+  }
+  section #pricing-calculator .inner-section .raw .col select {
+      width: 100%;
+      padding: 10px;
+  }
+  #Who-We-Are-Actually {
+      padding-top: 235px;
+      padding-bottom: 50px;
+  }
+  .rotate-heading h2 {
+      font-size: 40px;
+      font-family: 'Montserrat' !important;
+      position: relative;
+      display: none;
+  }
+  #Opt-For-The-Best-And-Cheap-Essay-Writing-Help-In-Abu-Dhabi-btn-edit {
+      background-color: black;
+      width: 230px;
+      color: white;
+      border: 2px solid black;
+      margin-left: 0px;
+      margin-top: 20px;
+  }
+  #Get-Free-NewsLetter {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: none;
+  }
+  #Top-Quality-Essays-With-Affordable-Prices-Only-At-Essay-Writing-Service-UAE {
+      padding-top: 0px;
+      padding-bottom: 50px;
+      background-image: url(Image/FLage\ 2.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  #Who-We-Are-Actually {
+      padding-top: 227px !important;
+      padding-bottom: 630px;
+  }
+  .Who-We-Are-Actually-left-box {
+      width: 100%;
+      /* border: 2px solid black; */
+      padding: 10px 0px;
+      display: flex;
+      /* justify-content: center; */
+  }
+}
+
+@media (max-width:540px) {
+  .Deadline {
+      width: 100%;
+      /* border: 2px solid orange; */
+      overflow: scroll;
+  }
+}
+
+@media (max-width:280px) {
+  section #pricing-calculator .inner-section .side-bar {
+      width: 100%;
+      padding: 35px 0px;
+      background-color: rgb(230, 230, 230);
+      border-radius: 10px;
+      position: absolute;
+      right: 4px;
+      top: 385px;
+  }
+}
+
+@media (max-width:1440px) {
+  .Satisfaction-main-box {
+      width: 58%;
+      border: none;
+      background-color: #fc5757;
+      box-shadow: 4px 4px 20px rgb(255, 130, 130);
+      position: absolute;
+      bottom: -532px;
+      right: 29px;
+      padding: 40px 50px;
+      /* padding-top: 24px; */
+      padding-left: 70px !important;
+  }
+  
+}
+@media (max-width:1280px) {
+  .Satisfaction-main-box {
+      width: 58%;
+      border: none;
+      background-color: #fc5757;
+      box-shadow: 4px 4px 20px rgb(255, 130, 130);
+      position: absolute;
+      bottom: -575px;
+      right: 29px;
+      padding: 40px 50px;
+      /* padding-top: 24px; */
+      padding-left: 70px !important;
+  }
+  #Who-We-Are-Actually {
+      padding-top: 150px;
+      padding-bottom: 630px;
+  }
+}
+.personal-information-heading-box {
+  width: 100%;
+  background: black;
+  padding: 20px 20px;
+}
+.personal-information-heading-2-style {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+.personal-information-main-box{
+  width:100%;
+  /* border: 2px solid black; */
+  margin: auto;
+  display: flex;
+}
+.personal-information-main-box-left{
+  width: 50%;
+  /* border: 2px solid purple; */
+  /* gap: 20px 20px; */
+  padding: 0px 20px;
+}
+.personal-information-main-box-right{
+  width: 50%;
+  /* border: 2px solid rgb(255, 0, 255); */
+  padding: 0px 20px;
+
+}
+.personal-information-main-box-left input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.personal-information-main-box-left select {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+span.personal-span-style {
+  font-size: 20px;
+  font-weight: 700;
+}
+.personal-information-main-box-right input {
+  width: 100%;
+  padding: 15px;
+  font-size: 19px;
+  border-radius: 10px;
+}
+.personal-information-main-box-right-first-input-add-margin-top {
+  margin-bottom: 30px;
+}
+.personal-btn{
+  width: 100%;
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+.check-box-with-para-box{
+  width: 100%;
+  margin-bottom: 30px;
+}
+button.personal-order-now {
+  padding: 10px 30px;
+  font-size: 20px;
+  background: black;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  border: none;
+}
